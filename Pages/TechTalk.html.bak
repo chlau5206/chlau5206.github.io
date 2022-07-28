@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" href = "..\style\style.css">
+		<script src = "Scripts\Main.js"></script>
+		<title>Tech Talk - ChLau 5206 GitHub</title>
+	</head>
+	<body>
+		<header>
+			<a href="../index.html" target="_self"> 
+			<h1>Chlau 5206 - Tech Talk</h1>
+		</header>
+		<nav><h3>
+		<h2>Tutorial</h2>
+		  <ul> 
+            <li><a href = "https://www.tutorialspoint.com/html">HTML Tutorial</a></li> 
+            <li><a href = "https://www.tutorialspoint.com/css">CSS Tutorial</a></li> 
+            <li><a href = "https://www.tutorialspoint.com/javascript">
+            JavaScript Tutorial</a></li> 
+         </ul> 
+		 <h2>How to......</h2>
+		 <ul> 
+            <li><a href = "How to Batch Rename Files.txt">How to Batch Rename Files</a></li> 
+            
+         </ul> 
+		  <h2>Web Browsers</h2>
+		 <ul> 
+            <li><a href = "https://www.apple.com/safari/" target="_blank" rel="noopener noreferrer">Apple Safari</a></li> 
+            <li><a href = "https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">Google Chrome</a></li> 
+			<li><a href = "https://www.mozilla.com/firefox/" target="_blank" rel="noopener noreferrer">Mozilla Firefox</a></li> 
+			<li><a href = "https://www.microsoft.com/edge/" target="_blank" rel="noopener noreferrer">Microsoft Edge</a></li> 
+			<li><a href = "https://www.opera.com" target="_blank" rel="noopener noreferrer">Opera</a></li> 
+         </ul> 
+			</h3>
+		</nav>
+		<br />
+		 <article> 
+		<section> 
+            <p>Once article can have multiple sections</p>
+         </section> 
+      </article> 
+   
+      <aside> 
+         <p>This is  aside part of the web page</p> 
+      </aside> 
+		<footer>
+			<h4>
+			<u1>
+				<a href='#'>About Us</a>
+			</u1>
+			<ul>
+				<a href='#'>Last Update: 
+					<script> 
+						document.write(document.lastModified);	
+					</script>
+				</a>
+			</ul>
+			</h4>
+		</footer>
+	</body>
+</html>

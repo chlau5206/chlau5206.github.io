@@ -14,7 +14,7 @@
 			
 		</header>
 		<nav>
-			<img src="Image\IMG_0275.jpg" alt="ChLau 5206 home page"
+			<img src="Image\IMG_0275.jpg" alt="ChLau home page"
 				width = "400"
 				height = "500" 
 			/>
@@ -25,9 +25,6 @@
 				</li>
 				<li>
 					<a href="Pages\FQA.html" target="_self">FQA</a>
-				</li>
-				<li>
-					<a href="Pages\TestPage.htm" target="_self">Test Page</a>
 				</li>
 			</h2></u1>
 		</nav>
