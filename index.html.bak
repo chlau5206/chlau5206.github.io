@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" href = "style\style.css">
+		<script src = "Scripts\Main.js"></script>
+		<title>Home page - ChLau 5206 GitHub</title>
+	</head>
+	<body>
+		<header>
+				
+				<a href="file:///E:/[GitHub-Repos]/chlau5206.github.io/index.html" target="_self"> 
+				<h1>Welcome to ChLau 5206 Home page</h1>
+			
+		</header>
+		<nav>
+			<img src="Image\IMG_0275.jpg" alt="ChLau home page"
+				width = "400"
+				height = "500" 
+			/>
+			<u1><h2>
+				
+				<li>
+					<a href = "https://tutorialspoint.com/">Tutorials Point</a>
+				</li>
+				<li>
+					<a href="Pages\FQA.html" target="_self">FQA</a>
+				</li>
+			</h2></u1>
+		</nav>
+		<br />
+		
+		<footer>
+			<h4>
+			<u1>
+				<a href='#'>About Us</a>
+			</u1>
+			<ul>
+				<a href='#'>Last Update: 
+					<script> 
+						document.write(document.lastModified);	
+					</script>
+				</a>
+			</ul>
+			</h4>
+		</footer>
+		
+	</body>
+</html>
