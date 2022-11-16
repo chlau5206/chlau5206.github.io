@@ -43,3 +43,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# backup files        #
+#######################
+*.bak
