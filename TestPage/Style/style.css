@@ -1,0 +1,105 @@
+body {
+	font-szie: 10pt;
+	font-family:  "Microsoft JhengHei", "Microsoft YaHei", Tahoma, Arial, "Times New Roman", sans-serif;
+	color: black;
+	line-height: 14pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 5pt;
+}
+
+h1.title {
+	font: "Times New Roman";
+	font-size: 40pt;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 20pt;
+	color: yellow;
+	text-align:center;
+}
+
+h1 {
+	font: "Comic Sans";
+	font-size: 20pt;
+	font-style: italic;
+	color: black;
+	text-align: left;
+}
+h2 {
+	font: Calades;
+	font-size: 24pt;
+	font-weight: bold;
+	line-height: 16pt;
+	color: purple;
+	text-align: left;
+}
+h3 {
+	font-size: 16pt;
+	line-height: 16pt;
+	color: purple;
+	text-align: left;
+}
+p.subheader {
+	font-weight: bold;
+	color: #593d87;
+}
+img {
+	padding: 20pt;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.link, a:visited {
+	color: #8094d6;
+}
+
+a.hover, a:active {
+	color: $FF9933;
+}
+
+footer {
+	font-size: 9pt;
+	font-style: italic;
+	line-height: 12pt;
+	color: Blue;
+	text-align: center;
+	padding-top: 30pt;
+}
+	
+
+@media (min-width:600px){
+	body{
+		background-color:green;
+	}
+}
+@media (max-width:599px){
+	body{
+		background-color:yellow;
+	}
+}
+#words {
+	display: flex;
+	flex-wrap: wrap;
+}
+#words > div {
+	border: 3px solid blue;
+	background: orange;
+	width:   200px;
+	height:  150px;
+	padding: 20px;
+	margin:  20px;
+	font-family:  FangSong, Microsoft JhengHei, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+@font-face{
+	font-family: 'fanti';
+	src:url('css/fanti.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+		
+		

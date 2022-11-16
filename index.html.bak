@@ -4,20 +4,24 @@
 		<meta charset = "utf-8">
 		<link rel = "stylesheet" href = "style\style.css">
 		<script src = "Scripts\Main.js"></script>
-		<title>Home page - ChLau 5206 GitHub</title>
+		<title>Home page - ChLau 5206 GitHub</title><br>
+		<img src="Image\AlohaFriday.jpg" alt="ChLau 5206 home page"
+				width = "150"
+				height = "85" 
+			/>
 	</head>
 	<body>
 		<header>
 				
 				<a href="file:///E:/[GitHub-Repos]/chlau5206.github.io/index.html" target="_self"> 
 				<h1>Welcome to ChLau 5206 Home page</h1>
-			
+					<img src=".\Image\AlohaFriday.jpg" alt="ChLau 5206 Home page"
+						width = "150"
+						height = "85" 
+					/>
 		</header>
 		<nav>
-			<img src="Image\IMG_0275.jpg" alt="ChLau home page"
-				width = "400"
-				height = "500" 
-			/>
+			
 			<u1><h2>
 				
 				<li>
@@ -25,6 +29,9 @@
 				</li>
 				<li>
 					<a href="Pages\FQA.html" target="_self">FQA</a>
+				</li>
+				<li>
+					<a href="TestPage\TestPage.htm" target="_self">Test Page</a>
 				</li>
 			</h2></u1>
 		</nav>
