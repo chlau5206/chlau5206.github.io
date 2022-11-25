@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel = "stylesheet" href = "style\style.css">
-		<script src = "Scripts\Main.js"></script>
+		
+		<script language = "javascript" type = "text/javascript" src = "Scripts\Main.js"></script>
+		<script>checkHTML5Support()</script>
 		<title>Test Page</title>
 		<img src=".\Image\AlohaFriday.jpg" alt="ChLau 5206 Test page"
 			width = "200"
@@ -12,29 +14,44 @@
 		<hr>
 	</head>
 	<body>
-	<h1 class="title">H1--ChLau 5206 Test page</h1>
+		<noscript>
+			JavaScript is disabled. <br>
+			JavaScript is needed to go ahead.
+		</noscript>  
+		<h1 class="title">H1--ChLau 5206 Test page</h1>
 
-	
-<a id="StranLink">转换到繁體中文</a>
-<script src="Scripts/gb.js" type="text/javascript"></script>
-	
-	<hr>
-	<h1>
-		H1--How to Put “Open Command Window Here” Back on the Windows Right-Click Menu
-	</h1>
+	<!--
+		<input onclick="convert(1)" type="button" value="简体转繁体">
+		<input onclick="convert(0)" type="button" value="繁体转简体">
+		<br>
+		<div style="margin-top: 10">
+			<input onclick="h1.value=0;convert()" type=button value="转为简体"> <input onclick="h1.value=1;convert()" type=button value="转为繁体"> <input onclick="h1.value=2;convert()" type="button" value="火星繁体"> <input onclick="txt.value=''" type=button value="清空"> <input type="hidden" value="0" name="h1" id="h1">
+		</div>
+	-->
+		<a id="StranLink">转换到繁體中文</a>
+		<script src="Scripts\gb.js" type="text/javascript"></script>
 
-<p>
-<article><h3>H3--
-Open the Registry Editor by hitting Start and typing “regedit.” Press Enter to open Registry Editor, and then give it permission to make changes to your PC.
-</p>
-<p>
-1. Go to >	HKEY_CLASSES_ROOT\Directory\shell\cmd <br>
-2. After gaining control of the cmd key, you’re going to make one small change to one of the values inside it. Right-click the HideBasedOnVelocityId value and select the “Rename” command. Just put an underscore ( _ ) at the beginning of the value’s existing name. All we’re doing here is making the value not register.
-</p>
-<p>
-	把转换链接添加到小工具是最简单的，进入wodpress建站后台，外观-小工具，然后在侧边或页脚添加一个HTML模块，然后把上面的代码添加进去就可以了。
-</p>
-</h3>
-	</article>
+		
+		<hr>
+		<h1>
+			<p>Click the following button to see the Exchange Rates: </p>      
+			<form>
+				<input type = "button" value = "Exchange Rates" onclick = "printExchangeRates();" />
+			</form>
+		</h1>
+		<article>
+		<h3>H3--
+			<p>
+				Open the Registry Editor by hitting Start and typing “regedit.” Press Enter to open Registry Editor, and then give it permission to make changes to your PC.
+			</p>
+			<p>
+				1. Go to >	HKEY_CLASSES_ROOT\Directory\shell\cmd <br>
+				2. After gaining control of the cmd key, you’re going to make one small change to one of the values inside it. Right-click the HideBasedOnVelocityId value and select the “Rename” command. Just put an underscore ( _ ) at the beginning of the value’s existing name. All we’re doing here is making the value not register.
+			</p>
+			<p>
+				把转换链接添加到小工具是最简单的，进入wodpress建站后台，外观-小工具，然后在侧边或页脚添加一个HTML模块，然后把上面的代码添加进去就可以了。
+			</p>
+		</h3>
+		</article>
 	</body>
 </html>
