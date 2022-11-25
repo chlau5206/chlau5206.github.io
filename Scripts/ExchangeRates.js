@@ -10,7 +10,7 @@ function printExchangeRates(){
 	document.write("Time taken:" + obj["date"] + breakLine);  // Prints: J. K. Rowling
 	
 	for (country in obj["rates"]){
-		document.write(symbol2country(country) + ':     ' + obj["rates"][country] + breakLine);   
+		document.write(symbol2country(country) + ': \u0009' + obj["rates"][country] + breakLine);   
 	}
 	
 	// document.write(symbol2country('CNY') + ': \t' + obj["rates"]["CNY"] + breakLine); // single rate
