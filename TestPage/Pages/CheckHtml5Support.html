@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>
+		How to detect HTML 5 is supported
+		or not in the browser ?
+	</title>
+</head>
+
+<body>
+	<h1 style="color: green">
+		GeeksforGeeks
+	</h1>
+	
+	<b>
+		How to detect that HTML5 is
+		not supported by JavaScript?
+	</b>
+	
+	
+<p>
+		The Canvas features added in HTML5. Checking
+		for canvas support in HTML5.
+	</p>
+
+	
+	
+<p>
+		Click on the button to check
+		for Canvas support
+	</p>
+
+	
+	
+<p>
+		Canvas is supported:
+		<span class="output"></span>
+	</p>
+
+	
+	<button onclick="checkCanvas()">
+		Check for canvas
+	</button>
+	
+	<script type="text/javascript">
+		function checkCanvas() {
+			
+			if (document.createElement('canvas').getContext)
+				isSupported = true;
+			else
+				isSupported = false;
+			
+			document.querySelector('.output').textContent
+					= isSupported;
+		}
+	</script>
+</body>
+
+</html>
