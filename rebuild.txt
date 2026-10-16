@@ -1,0 +1,15 @@
+folder structure:
+chlau.github.io/
+	.git/    -> remove from .gitignore
+	.github/  
+	.github/actions  -> empty 
+	.github/workflows -> empty
+	.obsidian/ + subfolder  -> included in .gitignore
+	docs/
+	docs/home  and other md subfolders
+	docs/index.md
+	.gitignore
+	_config.yml
+	index.html
+
+
