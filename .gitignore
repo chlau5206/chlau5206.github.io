@@ -63,6 +63,7 @@ Thumbs.db
 ###################
 *.tmp
 *.bak
+temp/
 
 # Python migration tool cache
 __pycache__/

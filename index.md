@@ -7,4 +7,7 @@ nav_order: 1
 
 Welcome to my knowledge base.
 
-Browse the documentation using the sidebar.
+Use the sidebar to browse documentation sections:
+
+- Notes
+- Recipes

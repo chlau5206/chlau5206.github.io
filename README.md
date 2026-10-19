@@ -6,33 +6,18 @@ chlau.github.io/
 ├── index.md
 ├── _config.yml
 │
-├── _layouts/
-│   └── default.html
-│
-├── _includes/
-│   └── header.html
-│   └── footer.html
-│
-├── assets/
-│   ├── css/
-│   └── img/
-│
-├── notes/
+├── docs/
 │   ├── index.md
-│   ├── unicode.md
-│   ├── powershell.md
-│   └── python.md
-│
-├── recipes/
-│   ├── index.md
-│   ├── beef_ribs.md
-│   └── salmon.md
-│
-├── home/
-│   ├── index.md
-│   └── water_heater.md
-│
-└── health/
-    ├── index.md
-    └── supplements.md
-
+│   ├── notes/
+│   │   ├── index.md
+│   │   ├── unicode.md
+│   │   └── powershell.md
+│   ├── recipes/
+│   │   ├── index.md
+│   │   └── beef_ribs.md
+│   ├── home/
+│   │   ├── index.md
+│   │   └── water_heater.md
+│   └── health/
+│       ├── index.md
+│       └── supplements.md
