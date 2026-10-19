@@ -1,21 +1,23 @@
 title: Charles Wiki
 description: Personal knowledge base
-theme: jekyll-theme-minimal
+theme: just-the-docs
 
-markdown: kramdown
-kramdown:
-  input: GFM
+search_enabled: true
 
+# Tell Jekyll that content lives in docs/
 collections:
-  notes:
+  docs:
     output: true
-  recipes:
-    output: true
-  home:
-    output: true
-  health:
-    output: true
+    permalink: /:path
 
+# Sidebar navigation
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      nav_exclude: false
+
+# Default layout
 defaults:
   - scope:
       path: ""
