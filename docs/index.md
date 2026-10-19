@@ -1,13 +1,13 @@
-# Charles Notes
+---
+title: Documentation
+nav_order: 1
+---
 
-Welcome to my personal knowledge base.
+# Documentation
+
+This section contains all structured wiki content.
 
 ## Sections
 
-- **Recipes** — cooking notes, ribs, salmon, etc.
-- **Tech** — PowerShell, Python, Windows, automation.
-- **Home** — maintenance notes, appliances.
-- **Health** — supplements, routines.
-
-This site is generated automatically from Markdown using MkDocs + Material.
-
+- [TechNotes](TechNotes/)
+- [Recipes](Recipes/)
