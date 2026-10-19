@@ -1,21 +1,60 @@
 title: Charles Wiki
 description: Personal knowledge base
-theme: jekyll-theme-minimal
+theme: just-the-docs
+logo: assets/img/logo.png
+footer_content: "© 2026 Charles Wiki"
 
-markdown: kramdown
-kramdown:
-  input: GFM
+# Enable search
+search_enabled: true
 
+# Base URL (empty for user site)
+baseurl: ""
+
+# Navigation structure - Sidebar navigation
+just_the_docs:
+  css:
+    - assets/css/custom.css
+  collections:
+    docs:
+      name: Documentation
+      nav_exclude: false
+      
+  # collections:
+    # notes:
+      # name: Notes
+      # nav_exclude: false
+    # recipes:
+      # name: Recipes
+      # nav_exclude: false
+    # home:
+      # name: Home
+      # nav_exclude: false
+    # health:
+      # name: Health
+      # nav_exclude: false      
+
+# Tell Jekyll that content lives in docs/
 collections:
-  notes:
+  docs:
     output: true
-  recipes:
-    output: true
-  home:
-    output: true
-  health:
-    output: true
+    permalink: /:path
 
+# collections:
+  # notes:
+    # output: true
+    # permalink: /:collection/:name
+  # recipes:
+    # output: true
+    # permalink: /:collection/:name
+  # home:
+    # output: true
+    # permalink: /:collection/:name
+  # health:
+    # output: true
+    # permalink: /:collection/:name
+
+
+# Default layout
 defaults:
   - scope:
       path: ""

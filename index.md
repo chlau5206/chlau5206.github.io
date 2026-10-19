@@ -1,16 +1,10 @@
 ---
 title: Home
+nav_order: 1
 ---
 
 # Charles Wiki
 
-Welcome to my personal knowledge base.
+Welcome to my knowledge base.
 
-## Sections
-
-- [Notes](/notes/)
-- [Recipes](/recipes/)
-- [Home](/home/)
-- [Health](/health/)
-- [TechNotes](/TechNotes/)
-
+Browse the documentation using the sidebar.

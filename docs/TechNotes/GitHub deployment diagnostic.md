@@ -1,5 +1,6 @@
 ---
-title: Unicode Notes
+title: GitHub deployment diagnostic
+nav_order: 2
 ---
 
 # Check GitHub Pages build logs (hidden but available)
