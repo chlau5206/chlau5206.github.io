@@ -1,3 +1,23 @@
 title: Charles Wiki
+description: Personal knowledge base
 theme: jekyll-theme-minimal
+
 markdown: kramdown
+kramdown:
+  input: GFM
+
+collections:
+  notes:
+    output: true
+  recipes:
+    output: true
+  home:
+    output: true
+  health:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
