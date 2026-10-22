@@ -1,9 +1,9 @@
 ---
-title: French Recipes
-nav_order: 1
+title: Italian Cuisine
+nav_order: 2
 ---
 
-# French Recipes
+# Italian Cuisine
 
 - [Alfredo-Style White Sauce](Alfredo-Style White Sauce.md)
 - [Biscotti](Biscotti.md)

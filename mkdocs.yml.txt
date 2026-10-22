@@ -1,0 +1,24 @@
+site_name: Charles Wiki
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - content.action.view
+nav:
+  - Home: index.md
+  - Documentation:
+      - Notes: docs/notes/index.md
+      - Recipes:
+          - Italian: docs/recipes/italian/index.md
+          - Japanese: docs/recipes/japanese/index.md
+          - Thai: docs/recipes/thai/index.md
+      - Home: docs/home/index.md
+      - Health: docs/health/index.md

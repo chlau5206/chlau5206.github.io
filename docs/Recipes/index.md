@@ -1,12 +1,12 @@
 ---
 title: Recipes
-nav_order: 1
+nav_order: 2
 ---
 
 # Recipes
 
 ## Categories
 
-- [French](french/)
+- [Italian](Italian/)
 - [Japanese](japanese/)
 - [Thai](thai/)
