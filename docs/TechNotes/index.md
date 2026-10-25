@@ -1,11 +1,11 @@
 ---
-title: Notes
-nav_order: 1
+title: Tech Notes
+nav_order: 2
 ---
 
-# Notes
+# Tech Notes
 
 Technical notes and references.
 
-- [Unicode](unicode.md)
-- [PowerShell](powershell.md)
+- [Media Authoring](MediaAuthoring)
+- [Obsidian](Obsidian)

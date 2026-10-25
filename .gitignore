@@ -1,3 +1,14 @@
+# gitignore files
+# Git 
+##############
+.git/
+# .gitignore
+
+# site ignored folder
+#####################
+Notes_Input/
+Notes_MD_Output/
+
 # Compiled source #
 ###################
 *.com
@@ -10,10 +21,6 @@
 *.pdb
 *.readme
 
-# Git 
-##############
-.git/
-# .gitignore
 
 # Test files #
 ##############
@@ -68,6 +75,4 @@ temp/
 # Python migration tool cache
 __pycache__/
 *.pyc
-Notes_Input/
-Notes_MD_Output/
 

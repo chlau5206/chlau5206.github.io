@@ -1,9 +1,9 @@
 ---
-title: Recipes
-nav_order: 1
+title: Japanese
+nav_order: 3
 ---
 
-# Recipes
+# Japanese Cuisine
 
 ## Categories
 
