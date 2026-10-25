@@ -9,5 +9,4 @@ Welcome to my knowledge base.
 
 Use the sidebar to browse documentation sections:
 
-- Notes
-- Recipes
+- [TechNotes](TechNotes/)
