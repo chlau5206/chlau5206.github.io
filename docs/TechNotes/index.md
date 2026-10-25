@@ -1,6 +1,6 @@
 ---
 title: Tech Notes
-nav_order: 2
+nav_order: 100
 ---
 
 # Tech Notes
@@ -8,4 +8,3 @@ nav_order: 2
 Technical notes and references.
 
 - [Media Authoring](MediaAuthoring)
-- [Obsidian](Obsidian)

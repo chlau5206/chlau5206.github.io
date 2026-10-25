@@ -1,3 +1,10 @@
+---
+title: FFmpeg Parameter list
+parent: MediaAuthoring
+nav_order: 30000
+---
+
+
 This is the complete list that’s outputted by ffmpeg when running ffmpeg -h full.
 (Originall From: Posted 2015-05-29 http://ubwg.net/b/full-list-of-ffmpeg-flags-and-options)
 usage: ffmpeg [options] [[infile options] -i infile]… {[outfile options] outfile}…
