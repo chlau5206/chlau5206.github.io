@@ -9,4 +9,4 @@ This section contains all structured wiki content.
 
 ## Sections
 
-- [TechNotes](TechNotes/)
+- [Media Authoring](MediaAuthoring/)

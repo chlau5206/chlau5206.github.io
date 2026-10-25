@@ -9,4 +9,4 @@ Welcome to my knowledge base.
 
 Use the sidebar to browse documentation sections:
 
-- [TechNotes](TechNotes/)
+- [Tech Notes](TechNotes/)
