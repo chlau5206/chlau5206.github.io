@@ -1,7 +1,7 @@
 ---
 title: Compare 2 videos
 parent: MediaAuthoring
-nav_order: 20000
+nav_order: 1020
 ---
 
 

@@ -7,4 +7,4 @@ nav_order: 100
 
 Technical notes and references.
 
-- [Media Authoring](MediaAuthoring)
+-[Media Authoring](MediaAuthoring/)

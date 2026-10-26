@@ -7,7 +7,7 @@ nav_order: 1000
 
 Video, Picture, Photo and Audio editing.
 
-
--[Compare 2 videos](Compare 2 videos)
--[Build LLM wiki](Build LLM wiki)
--[FFmpeg parameter list](FFmpeg parmeter list)
+-[Compare 2 videos](Compare 2 videos.md)
+-[Build LLM wiki](Build LLM wiki.md)
+-[FFmpeg parameter list](FFmpeg parmeter list.md)
+-[Migration from Jekyll to MkDocs](Migration from Jekyll to MkDocs.md)
