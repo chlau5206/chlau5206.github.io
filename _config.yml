@@ -13,7 +13,7 @@ collections:
 
 # Sidebar navigation
 just_the_docs:
-  color_scheme: light
+  color_scheme: auto
   collections:
     docs:
       name: Documentation
