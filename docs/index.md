@@ -6,5 +6,6 @@ Welcome to my personal knowledge base.
 
 - TechNotes
 - Recipes
+- Home Improvement
 
 Use the search box to find information.
