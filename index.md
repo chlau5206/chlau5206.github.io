@@ -11,6 +11,8 @@ Welcome to my personal knowledge base.
 - Tech Notes
 
 - Recipes
+    - Indonesia
+    - Italian
 
 - Home Improvement
 
