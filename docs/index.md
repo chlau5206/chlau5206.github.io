@@ -10,3 +10,4 @@ This section contains all structured wiki content.
 ## Sections
 
 - [Tech Notes](TechNotes/)
+- [Recipes](Recipes/)
