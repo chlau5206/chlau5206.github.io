@@ -1,3 +1,13 @@
+Current status:   
+10/28/2026  
+	1. update local repo to MkDocs
+	2. update GitHub: Jekyll -> MkDocs
+	3. Add GitHub Action workflow
+
+
+
+
+
 **future MkDocs migration plan**, here’s a clean, practical, engineer‑friendly roadmap that ensures:
 
 - your current wiki stays stable
