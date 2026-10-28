@@ -1,13 +1,10 @@
----
-title: Documentation
-nav_order: 10
----
+# Charles Wiki
 
-# Documentation
+Welcome to my personal knowledge base.
 
-This section contains all structured wiki content.
+## Main Areas
 
-## Sections
+- TechNotes
+- Recipes
 
-- [Tech Notes](TechNotes/)
-- [Recipes](Recipes/)
+Use the search box to find information.
