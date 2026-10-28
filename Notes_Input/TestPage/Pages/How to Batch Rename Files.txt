@@ -1,0 +1,7 @@
+How to Batch Rename Files 
+
+1. Open File Explorer, go to a file folder, select View > Details, select all files, select Home > Rename, enter a file name, and press Enter.
+
+2. In Windows PowerShell, go to a file folder, enter dir | rename-item -NewName {$_.name -replace “My”,”Our”} and press Enter. The rename-item command in PowerShell has other syntax you can use. For example following rename-item with "$_ "Preface - $_" will add "Preface - " to the front of every filename.
+
+3. Using Command Prompt, go to a file folder, enter ren *.* ????????????-filename.jpg and press Enter.

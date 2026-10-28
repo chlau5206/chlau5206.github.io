@@ -7,7 +7,7 @@ nav_order: 1000
 
 Video, Picture, Photo and Audio editing.
 
--[Build LLM wiki](Build_LLM_wiki.md)
+-[Build LLM wiki](Obsidian%20+%20AI%20links.md)
 
 -[Compare 2 videos](Compare_2_videos.md)
 

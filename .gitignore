@@ -6,8 +6,8 @@
 
 # site ignored folder
 #####################
-Notes_Input/
-Notes_MD_Output/
+# Notes_Input/
+# Notes_MD_Output/
 
 # Compiled source #
 ###################
@@ -76,3 +76,6 @@ temp/
 __pycache__/
 *.pyc
 
+
+# Ignore Smart Environment folder
+.smart-env
