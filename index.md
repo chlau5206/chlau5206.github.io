@@ -2,11 +2,16 @@
 title: Home
 nav_order: 1
 ---
-
 # Charles Wiki
 
-Welcome to my knowledge base.
+Welcome to my personal knowledge base.
 
-Use the sidebar to browse documentation sections:
+## Main Areas
 
-[Tech Notes]
+- Tech Notes
+
+- Recipes
+
+- Home Improvement
+
+Use the search box to find information.
