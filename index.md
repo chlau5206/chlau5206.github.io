@@ -4,12 +4,12 @@ Welcome to my personal knowledge base.
 
 ## Main Areas
 
-- Tech Notes
+- [Tech Notes](Tech_Notes/)
 
-- Recipes
+- [Recipes](Recipes/)
     - Indonesia
     - Italian
 
-- Home Improvement
+- [Home Improvement](Home_Improvement/)
 
 Use the search box to find information.
