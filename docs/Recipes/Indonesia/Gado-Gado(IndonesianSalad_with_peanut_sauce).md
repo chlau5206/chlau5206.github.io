@@ -1,3 +1,14 @@
+---
+title: Gado-Gado(IndonesianSalad with peanut sauce)
+category: Recipes
+tags: 
+	- Recipes
+	- Indonesia
+status: completed
+created: 10-28-2026
+updated: 10-29-2026
+---
+
 “Gado Gado” means “mix-mix” which is appropriate for this versatile dish that can be made with any mix of vegetables.
 
 加多加多（Gado-gado）是一道傳統的印尼沙拉，由煮熟或生的蔬菜、水煮蛋、豆腐、天貝以及少許鹹甜花生醬混合而成。
