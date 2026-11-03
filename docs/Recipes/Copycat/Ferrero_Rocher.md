@@ -1,3 +1,17 @@
+---
+title: Ferrero Rocher
+
+category: Recipes
+
+tags:
+  - Recipes
+  - Copycat
+
+status: completed
+
+created: 2026-10-31
+updated: 2026-11-02
+---
 
 # Secret Recipe
 

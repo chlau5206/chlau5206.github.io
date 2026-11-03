@@ -1,3 +1,18 @@
+---
+title: Milano Cookies
+
+category: Recipes
+
+tags:
+  - Recipes
+  - Copycat
+
+status: completed
+
+created: 2026-10-31
+updated: 2026-11-02
+---
+
 ### Ingredients
 
 - 1 ¼ cups all-purpose flour
@@ -8,7 +23,7 @@
 - 1 large egg room temperature
 - 1 teaspoon vanilla extract
 - 1 ½ tablespoons unsalted butter melted and cooled
-#### Ganache
+### Ganache
 
 - 1 ¼ cups chopped dark chocolate
 - ⅓ cup heavy cream

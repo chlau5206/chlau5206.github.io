@@ -1,9 +1,19 @@
 ---
 title: Biscotti
-nav_order: 2
+
+category: Recipes
+
+tags:
+  - Recipes
+  - Italian
+
+status: completed
+
+created: 2026-10-19
+updated: 2026-11-02
 ---
 
-# Biscotti
+### Biscotti
 
 Ingredients:
 ..................................................

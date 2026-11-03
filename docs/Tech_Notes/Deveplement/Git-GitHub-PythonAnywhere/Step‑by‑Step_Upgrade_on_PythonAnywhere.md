@@ -1,4 +1,19 @@
-Step‑by‑Step Upgrade on PythonAnywhere
+---
+title: Step‑By‑Step Upgrade On Pythonanywhere
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Deveplement
+  - Git-GitHub-PythonAnywhere
+
+status: completed
+
+created: 2026-10-30
+updated: 2026-11-02
+---
+### Step‑by‑Step Upgrade on PythonAnywhere
 📝 Migration Checklist: Flask Project Upgrade
 🔍 Pre‑Upgrade Prep
 - [ ] Clone your project (Git or manual copy) so you have a safe rollback.

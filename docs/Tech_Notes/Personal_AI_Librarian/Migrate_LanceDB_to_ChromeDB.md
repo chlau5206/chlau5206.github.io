@@ -1,3 +1,19 @@
+---
+title: Migrate Lancedb To Chromedb
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+
+status: completed
+
+created: 2026-10-30
+updated: 2026-11-02
+---
+
+
 ==**AnythingLLM comes with a private, built-in vector database powered by LanceDB by default**==
 
 1. ChromaDB: The "Developer First" Database
@@ -32,3 +48,17 @@ The exact manual migration steps include:
 1. Open your workspace's document manager and click the **Delete** icon next to your uploaded files to clear out the disconnected LanceDB pointers. [[1](https://docs.anythingllm.com/setup/vector-database-configuration/overview)]
 2. Go to **Settings > Vector Database** and switch the provider from the built-in LanceDB to **Chroma**. Enter your local Chroma server credentials. [[1](https://docs.anythingllm.com/setup/vector-database-configuration/overview), [2](https://docs.useanything.com/setup/vector-database-configuration/local/chroma)]
 3. Return to your workspace, select the files from your local storage cache, and click **Save and Embed**. [[1](https://docs.anythingllm.com/setup/vector-database-configuration/cloud/chromacloud)]
+
+**Qdrant** is a **vector database**.
+
+Think of it as a specialized database designed for AI search.
+
+| Aspect                     | ChromaDB        | Qdrant                |
+| -------------------------- | --------------- | --------------------- |
+| Setup complexity           | Simpler         | Slightly more complex |
+| Footprint                  | Usually smaller | Usually larger        |
+| Personal use               | Excellent       | Excellent             |
+| Enterprise scale           | Limited         | Strong                |
+| Metadata filtering         | Good            | Better                |
+| Performance at large scale | Good            | Excellent             |
+| Maintenance                | Lower           | Higher                |

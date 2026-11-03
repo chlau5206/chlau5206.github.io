@@ -1,12 +1,16 @@
 ---
-title: Gado-Gado(IndonesianSalad with peanut sauce)
+title: Gado Gado(Indonesiansalad With Peanut Sauce)
+
 category: Recipes
-tags: 
-	- Recipes
-	- Indonesia
+
+tags:
+  - Recipes
+  - Indonesia
+
 status: completed
-created: 10-28-2026
-updated: 10-29-2026
+
+created: 2026-10-25
+updated: 2026-11-02
 ---
 
 “Gado Gado” means “mix-mix” which is appropriate for this versatile dish that can be made with any mix of vegetables.

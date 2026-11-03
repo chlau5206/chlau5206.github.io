@@ -1,7 +1,16 @@
 ---
-title: Compare 2 videos
-parent: MediaAuthoring
-nav_order: 1020
+title: Compare 2 Videos
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - MediaAuthoring
+
+status: completed
+
+created: 2026-10-21
+updated: 2026-11-02
 ---
 
 
