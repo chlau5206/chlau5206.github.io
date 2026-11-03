@@ -1,8 +1,30 @@
+---
+title: Personal Ai Strategy
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+
+status: completed
+
+created: 2026-10-30
+updated: 2026-11-02
+---
+
 My plan is: 
-AI-Librarian - Notes -> Obsidian -> Ollama + gemma4:12b -> AnythingLLM Creative writing - MS Word + Ollama + gemma4:12b Coding - VSCode + Ollama + Qwen2.5:7b + AnythingLLM
+Phase 1: Notes -> Obsidian -> MkDocs -> Git -> GitHub 
+Phase 2: AnythingLLM (Ollama + Qwen2.5:7b/gemma4:12b+nomic-embed-text+LanceDB)
+
+Hardware: Laptop
+	- Gen 11 i7-1185G7@3.00GHz
+	- 8-Core (4-Physical, 4-Hyper Threads)
+	- 16.0 GB RAM
+	- Intel Iris Xe
+	- 64-bit OS. Windows 11 Home
 
 Mapping the tasks to specific tools while keeping **Ollama as the centralized model warehouse** is the exact right way to maximize your 16GB RAM.
-
 However, you are missing **three critical connection pieces** that will bridge your applications (Obsidian, MS Word, and VS Code) directly to your local AI engine. Without these integrations, you will find yourself constantly copying and pasting back and forth, which ruins the workflow.
 
 Here is what you need to add to complete your puzzle:
@@ -38,7 +60,8 @@ Once you add those integration layers, your final stack looks beautifully stream
 ```
 [ Your Core System Backend: Ollama ]
                │
-               ├───► [Creative Writing] ──► MS Word + Word AI Plugin ──► Gemma 4 12B
+               ├───► [Creative Writing] ──► MS Word + Word AI Plugin ──► Qwen2.5:7
+               B & Gemma4:12B
                │
                ├───► [Coding Workflow]  ──► VS Code + Continue.dev  ──► Qwen 2.5 7B
                │

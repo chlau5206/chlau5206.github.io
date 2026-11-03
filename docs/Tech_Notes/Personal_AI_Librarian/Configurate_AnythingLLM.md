@@ -1,3 +1,18 @@
+---
+title: Configurate Anythingllm
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+
+status: completed
+
+created: 2026-10-30
+updated: 2026-11-02
+---
+
 To connect your local **Ollama** engine running **Gemma 4 12B** to **AnythingLLM**, you will configure two main sections within the settings menu: ==the **LLM Provider** (the model that talks to you) and the **Embedding Provider** (the model that processes your files)==.
 
 Here is the exact step-by-step configuration layout to match your memory-safe 16GB RAM laptop setup:

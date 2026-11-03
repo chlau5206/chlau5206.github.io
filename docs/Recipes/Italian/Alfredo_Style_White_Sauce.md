@@ -1,3 +1,18 @@
+---
+title: Alfredo Style White Sauce
+
+category: Recipes
+
+tags:
+  - Recipes
+  - Italian
+
+status: completed
+
+created: 2026-10-12
+updated: 2026-11-02
+---
+
 - **Ingredients:** Melt **3 tablespoons butter** with **1 clove minced garlic**. Slowly whisk in **1.5 cups heavy cream** and simmer for 8 minutes to thicken. Remove from heat and stir in **1 cup freshly grated Parmesan cheese**.
     
 - **Process:** The residual heat melts the cheese into a velvety sauce. Toss immediately with spaghetti and reserve pasta water to adjust consistency if needed.

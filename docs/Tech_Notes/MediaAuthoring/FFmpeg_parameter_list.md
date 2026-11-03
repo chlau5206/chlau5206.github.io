@@ -1,9 +1,17 @@
 ---
-title: FFmpeg Parameter list
-parent: MediaAuthoring
-nav_order: 1030
----
+title: Ffmpeg Parameter List
 
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - MediaAuthoring
+
+status: completed
+
+created: 2026-10-22
+updated: 2026-11-02
+---
 
 This is the complete list that’s outputted by ffmpeg when running ffmpeg -h full.
 (Originall From: Posted 2015-05-29 http://ubwg.net/b/full-list-of-ffmpeg-flags-and-options)

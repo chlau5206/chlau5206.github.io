@@ -1,3 +1,18 @@
+---
+title: Migration Jekyll To Mkdocs
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+
+status: completed
+
+created: 2026-10-26
+updated: 2026-11-02
+---
+
 Current status:   
 10/28/2026  
 	1. update local repo to MkDocs

@@ -1,3 +1,18 @@
+---
+title: Ikea Swedish Meatballs
+
+category: Recipes
+
+tags:
+  - Recipes
+  - Copycat
+
+status: completed
+
+created: 2026-11-02
+updated: 2026-11-02
+---
+
 ### IKEA Swedish Meatballs at Home
 ![[IKEA_Meatballs_recipe.jpg]]
 ### Ingredients

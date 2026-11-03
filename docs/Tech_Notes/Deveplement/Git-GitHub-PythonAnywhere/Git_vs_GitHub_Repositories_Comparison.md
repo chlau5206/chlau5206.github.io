@@ -1,3 +1,18 @@
+---
+title: Git Vs Github Repositories Comparison
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Deveplement
+  - Git-GitHub-PythonAnywhere
+
+status: completed
+
+created: 2026-10-30
+updated: 2026-11-02
+---
 # Git vs GitHub Repositories Comparison #
 #========================================
 How to compare the contents of a local Git repository with the GitHub remote repository

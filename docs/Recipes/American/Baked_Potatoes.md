@@ -1,3 +1,18 @@
+---
+title: Baked Potatoes
+
+category: Recipes
+
+tags:
+  - Recipes
+  - American
+
+status: completed
+
+created: 2026-10-31
+updated: 2026-11-02
+---
+
 ### Ingredients
 1. 4 Idaho russet baking potatoes
 2. Unsalted butter

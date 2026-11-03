@@ -1,3 +1,18 @@
+---
+title: Metadata Classifier.Py
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+
+status: completed
+
+created: 2026-10-29
+updated: 2026-11-02
+---
+
 import argparse
 from pathlib import Path
 from datetime import datetime
