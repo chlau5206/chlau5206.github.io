@@ -1,14 +1,10 @@
 ---
 title: Personal Ai Librarian Implement
-
 category: Tech_Notes
-
 tags:
   - Tech_Notes
   - Personal_AI_Librarian
-
-status: completed
-
+status: In progress
 created: 2026-10-29
 updated: 2026-11-02
 ---
@@ -36,8 +32,22 @@ Phase 2: Metadata standard
 
 Phase 3: Install Ollama
 - [Ollama](irm https://ollama.com/install.ps1 | iex)
+- 
 
 Phase 4: Add AI-Model 
-	- add [Gemma 4 (12B)](https://ollama.com/library/gemma4:12b) <- good for laptop, unified.  
-		  ollama run gemma4:12b
-	- Optional Qwen3.8
+	[Your 16GB Lenovo Laptop]
+	   ├── Workspace 1: Creative Writing ──> llama3.1:8b  (Better prose, handles long narratives)
+	   ├── Workspace 2: Coding ────────────> Qwen 2.5 7B (Precise syntax, faster code blocks)
+	   └── Workspace 3: AI-Librarian ──────> Gemma 4 12B (Stronger context retrieval & summarization)
+	Embedding: --> nomic-embed-text
+	Vector Store: -> LanceDB
+	
+	To verify Ollama running
+		http://127.0.0.1:11434
+
+Phase 5: run helpers
+	- Metadata Auto Classifier --> done
+	- Note Health Report 
+	- AI Tag Generator
+	- Duplicate Detector
+	- AI Curator

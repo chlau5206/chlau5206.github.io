@@ -12,8 +12,7 @@ status: completed
 created: 2026-10-29
 updated: 2026-11-02
 ---
-
-## Large language model runner
+### Large language model runner
 
 Usage:
   ollama [flags]
@@ -55,3 +54,10 @@ Available Commands:
   /bye            Exit
   /?, /help       Help for a command
   /? shortcuts    Help for keyboard shortcuts
+
+
+Verify Ollama is Running
+ > http://127.0.0.1:11434     
+ > expected:  Ollama is running
+ 
+ 
