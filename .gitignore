@@ -70,6 +70,7 @@ Thumbs.db
 *.tmp
 *.bak
 temp/
+workspace/
 
 # Python migration tool cache
 __pycache__/

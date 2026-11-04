@@ -12,7 +12,68 @@ status: completed
 created: 2026-10-29
 updated: 2026-11-02
 ---
+``` metadata_classifier.py  11/2/2026
+""" metadata_classifier.py  11/2/2026
+Author: Charles H Lau
 
+MkDocs Metadata Auto Classifier
+
+Automatically adds YAML front matter metadata to Markdown files
+within a MkDocs documentation repository.
+
+Features:
+- Processes Markdown (*.md) files only
+- Skips index.md files
+- Skips files that already contain YAML front matter
+- Generates titles from filenames
+- Derives category from the first-level folder
+- Generates tags from the folder hierarchy
+- Populates created and updated dates from file timestamps
+- Supports single-file or recursive processing
+- Provides a dry-run mode for safe previewing
+
+Generated Metadata:
+    title      Human-readable title from filename
+    category   First folder under docs root
+    tags       Folder hierarchy as tag list
+    status     Default value: completed
+    created    File creation date
+    updated    File last modified date
+
+Examples:
+
+    Process entire docs tree:
+        python metadata_classifier.py --docs docs
+
+    Preview changes only:
+        python metadata_classifier.py --docs docs --dry-run
+
+    Process a single file:
+        python metadata_classifier.py \
+            --docs docs \
+            --file docs/Windows/Hyper-V/virtual_switch_setup.md
+
+    Preview a single file:
+        python metadata_classifier.py \
+            --docs docs \
+            --file docs/Windows/Hyper-V/virtual_switch_setup.md \
+            --dry-run
+
+Typical Workflow:
+    1. Import or reorganize notes.
+    2. Run with --dry-run to review changes.
+    3. Run without --dry-run to apply metadata.
+    4. Commit changes to Git.
+
+Use Case:
+    Part of the Personal AI Librarian / Knowledge Management
+    workflow for MkDocs, Obsidian, and AI-assisted note
+    organization. Provides consistent metadata that can later
+    be used for filtering, classification, search, vector
+    databases, and AI-powered knowledge discovery.
+"""
+
+import re
 import argparse
 from pathlib import Path
 from datetime import datetime
@@ -20,6 +81,18 @@ from datetime import datetime
 # ---------------------------
 # Helpers
 # ---------------------------
+
+def normalize_filename(filename):
+    p = Path(filename)
+
+    name = p.stem
+    name = name.replace(" ", "_")
+    name = name.replace("-", "_")
+
+    while "__" in name:
+        name = name.replace("__", "_")
+
+    return name + p.suffix
 
 def title_from_filename(filename: str) -> str:
     name = Path(filename).stem
@@ -162,12 +235,33 @@ def main():
         return
 
     for md_file in docs_root.rglob("*.md"):
+        new_name = normalize_filename(md_file.name)
+
+        if new_name != md_file.name:
+            new_path = md_file.with_name(new_name)
+
+            print(f"RENAME: {md_file.name} -> {new_name}")
+
+            if not args.dry_run:
+                md_file.rename(new_path)
+
+            md_file = new_path
+
         process_file(
             md_file,
             docs_root,
             args.dry_run
         )
 
-
 if __name__ == "__main__":
     main()
+    
+    
+```
+
+
+```  metadata_classifier.bat
+echo Metadata Auto-classifier
+python metadata_classifier.py --docs ..\docs
+
+```
