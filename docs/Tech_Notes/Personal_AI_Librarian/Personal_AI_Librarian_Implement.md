@@ -10,9 +10,9 @@ updated: 2026-11-02
 ---
 
 Phase 1: Set notes storing
-Notes -> Obsidian -> git -> github -> github page
+Notes -> Obsidian -> git -> github -> GitHub Actions -> MkDocs Material -> GitHub Pages
 1. First trial: Obsidian + Jekyll
-2. Second trial: Obsidian + MkDocs
+2. Second trial: Obsidian + MkDocs-Material ->MkDocs-Zensical
 
 Phase 2: Metadata standard
 - create metadata for each .md files
@@ -45,9 +45,10 @@ Phase 4: Add AI-Model
 	To verify Ollama running
 		http://127.0.0.1:11434
 
-Phase 5: run helpers
-	- Metadata Auto Classifier --> done
+Phase 5: 
+AI Librarian Weekend Maintenance.
+	- Metadata Auto Classifier 
 	- Note Health Report 
-	- AI Tag Generator
 	- Duplicate Detector
+	- AI Tag Generator
 	- AI Curator

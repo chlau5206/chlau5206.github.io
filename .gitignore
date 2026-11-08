@@ -5,8 +5,11 @@
 
 # site ignored folder
 #####################
-# Notes_Input/
+Notes_Input/
 Notes_MD_Output/
+temp/
+workspace/
+private/
 
 # Compiled source #
 ###################
@@ -69,8 +72,6 @@ Thumbs.db
 ###################
 *.tmp
 *.bak
-temp/
-workspace/
 
 # Python migration tool cache
 __pycache__/
