@@ -1,0 +1,40 @@
+Recipes:
+  meat:
+    - Beef
+    - Chicken
+    - Duck
+
+  wine:
+    - Red Wine
+    - White Wine
+    - Desert Wine
+    
+  seafood:
+    - Shrimp
+    - Salman
+    
+  desert:
+    - cake
+    - bread
+    
+Tech_Notes:
+
+  versionControl:
+    - Git
+    - GitHub
+
+  language:
+    - Python
+    - C#
+
+  mkdocs:
+    - MkDocs
+
+  testTools:
+    - Playwright
+    
+Home_Improvement:
+    - Gardenting
+    - Maintenance
+    - Small Appliant
+    
