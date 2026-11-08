@@ -1,0 +1,63 @@
+---
+title: Ollama Cheatsheet
+
+category: Tech_Notes
+
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+
+status: completed
+
+created: 2026-10-29
+updated: 2026-11-02
+---
+### Large language model runner
+
+Usage:
+  ollama [flags]
+  ollama [command]
+
+Available Commands:
+  serve        Start Ollama
+  create       Create a model
+  show         Show information for a model
+  run          Run a model
+  stop         Stop a running model
+  pull         Pull a model from a registry
+  push         Push a model to a registry
+  signin       Sign in to ollama.com
+  signout      Sign out from ollama.com
+  list         List models
+  ps           List running models
+  cp           Copy a model
+  rm           Remove a model
+  launch       Launch the Ollama menu or an integration
+  help         Help about any command
+
+Flags:
+  -h, --help         help for ollama
+      --nowordwrap   Don't wrap words to the next line automatically
+      --verbose      Show timings for response
+  -v, --version      Show version information
+
+Use "ollama [command] --help" for more information about a command.
+
+---
+Gemma 4:12B
+Available Commands:
+  /set            Set session variables
+  /show           Show model information
+  /load <model>   Load a session or model
+  /save <model>   Save your current session
+  /clear          Clear session context
+  /bye            Exit
+  /?, /help       Help for a command
+  /? shortcuts    Help for keyboard shortcuts
+
+
+Verify Ollama is Running
+ > http://127.0.0.1:11434     
+ > expected:  Ollama is running
+ 
+ 

@@ -19,7 +19,23 @@ Current status:
 	2. update GitHub: Jekyll -> MkDocs
 	3. Add GitHub Action workflow
 
+# Migration Steps (The Exact Checklist)
 
+### ✔ Step 1 — Keep writing in Jekyll
+
+No rush.
+
+### ✔ Step 2 — When your wiki grows (50–100+ pages), create `mkdocs.yml`
+
+### ✔ Step 3 — Add GitHub Actions workflow
+
+### ✔ Step 4 — Build MkDocs locally once to confirm
+
+### ✔ Step 5 — Switch GitHub Pages to `gh-pages` branch
+
+### ✔ Step 6 — Remove Jekyll config (optional)
+
+### ✔ Step 7 — Done
 
 
 

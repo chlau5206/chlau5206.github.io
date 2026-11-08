@@ -13,11 +13,6 @@ created: 2026-10-28
 updated: 2026-11-02
 ---
 
-### My plan is: 
-Completed - Phase 1: Notes -> Obsidian -> MkDocs -> Git -> GitHub 
-Completed - Phase 2: AnythingLLM + Ollama + Qwen2.5:7b/gemma4:12b+nomic-embed-text+LanceDB
-Phase 3: Auto Metadata Classifier -> AnythingLLM  -> Ollama -> Personal AI-Librarian
-
 ### What an AI-Librarian Does
 1. Find
 2. Connect
@@ -28,6 +23,8 @@ Phase 3: Auto Metadata Classifier -> AnythingLLM  -> Ollama -> Personal AI-Libra
 ### Tools: 
 1. Metadata Auto Classifier v1
 2. Note Health Report
+3. 
+   
 3. AI Curator
 
 ### Data Storage:
@@ -79,3 +76,52 @@ Here is the ideal way to map your dual-model setup across your three intended wo
    ├── Workspace 2: Coding ────────────> Qwen 2.5 7B (Precise syntax, faster code blocks)
    └── Workspace 3: AI-Librarian ──────> Gemma 4 12B (Stronger context retrieval & summarization)
 ```
+
+---
+## AI Librarian Roadmap
+
+### Phase 1 ✅
+
+```text
+Notes
+ → Obsidian
+ → MkDocs
+ → Git
+ → GitHub
+```
+
+### Phase 2 ✅
+
+```text
+Obsidian
+ → MkDocs
+ → AnythingLLM
+```
+
+### Phase 3 ✅
+
+```text
+AnythingLLM
+ + Ollama
+ + Qwen2.5:7B
+ + Llama3:8B
+ + Gemma 12B
+ + nomic-embed-text
+ + LanceDB
+```
+
+### Phase 4 🚧
+
+```text
+AI Librarian
+```
+
+Planned capabilities:
+
+- Metadata generation
+- Note health reports
+- Duplicate detection
+- Note classification
+- Related note discovery
+- Semantic knowledge search
+- Knowledge curation

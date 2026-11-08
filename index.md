@@ -1,15 +1,15 @@
 # Charles Wiki
 
-Welcome to my personal knowledge base.
+A personal knowledge base built with Obsidian, MkDocs, GitHub Pages, and local AI tools.
 
-## Main Areas
+## Overview
 
-- [Tech Notes](Tech_Notes/)
+Charles Wiki serves as a centralized repository for:
 
-- [Recipes](Recipes/)
-    - Indonesia
-    - Italian
+- Technical notes
 
-- [Home Improvement](Home_Improvement/)
+- Home Improvement
 
-Use the search box to find information.
+- Recipes
+
+The site is maintained in Markdown format and published automatically through GitHub Pages using MkDocs Material.
