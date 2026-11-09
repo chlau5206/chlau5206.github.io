@@ -10,6 +10,9 @@ Notes_MD_Output/
 temp/
 workspace/
 private/
+markitdown-main/
+
+Migrate_to_md.py
 
 # Compiled source #
 ###################
@@ -77,6 +80,8 @@ Thumbs.db
 __pycache__/
 *.pyc
 
+# VSCode files
+.vscode/
 
 # Ignore Smart Environment folder
 .smart-env

@@ -1,0 +1,8 @@
+skip_folders:
+  - Reports
+  - Archive
+  - Templates
+
+skip_files:
+  - index.md
+  - README.md
