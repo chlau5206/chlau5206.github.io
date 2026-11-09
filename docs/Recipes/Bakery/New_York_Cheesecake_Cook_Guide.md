@@ -12,8 +12,8 @@ status: completed
 created: 2026-11-02
 updated: 2026-11-02
 ---
-
-New York Cheesecake--Cook Guide
+## New York Cheesecake
+-- Cook Guide
 6inch cake 
 Digestive Biscuit  5pcs 
 Unsalted Butter 20g 

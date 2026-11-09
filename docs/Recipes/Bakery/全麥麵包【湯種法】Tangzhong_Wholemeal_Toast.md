@@ -1,3 +1,13 @@
+---
+title: 全麥麵包【湯種法】Tangzhong Wholemeal Toast
+category: Recipes
+tags:
+  - Recipes
+  - Bakery
+status: in progress
+created: 2026-11-08
+updated: 2026-11-08
+---
 全麥麵包【湯種法】 Tangzhong Wholemeal Toast
 https://www.christinesrecipes.com/2012/10/tangzhong-wholemeal-toast.html
 

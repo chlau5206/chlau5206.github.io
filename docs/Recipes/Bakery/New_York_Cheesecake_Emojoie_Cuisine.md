@@ -12,8 +12,8 @@ status: completed
 created: 2026-11-02
 updated: 2026-11-02
 ---
-
-New York Cheesecake -- Emojoie Cuisine
+## New York Cheesecake
+-- Emojoie Cuisine
 https://youtu.be/tspdJ6hxqnc
 
 ▼Ingredients
