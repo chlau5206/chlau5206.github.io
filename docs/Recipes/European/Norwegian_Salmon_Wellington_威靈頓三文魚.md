@@ -1,3 +1,13 @@
+---
+title: Norwegian Salmon Wellington 威靈頓三文魚
+category: Recipes
+tags:
+  - Recipes
+  - European
+status: in progress
+created: 2026-11-08
+updated: 2026-11-08
+---
 Norwegian Salmon Wellington 威靈頓三文魚 
 
 兩件份量 Serve2

@@ -1,3 +1,13 @@
+---
+title: Migrate To Md
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+status: in progress
+created: 2026-10-08
+updated: 2026-11-07
+---
 Below is a polished, production‑ready \*\*README.md\*\* you can drop directly into your GitHub repo for your Markdown Migration Tool.  
 
 It’s structured for clarity, long‑term maintainability, and GitHub Pages friendliness.

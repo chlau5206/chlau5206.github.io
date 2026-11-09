@@ -12,8 +12,7 @@ status: completed
 created: 2026-11-02
 updated: 2026-11-02
 ---
-
-Tokyo Cheesecake 東京No.1芝士蛋糕
+## Tokyo Cheesecake 東京No.1芝士蛋糕
 
 22cm長方形模具
 忌廉芝士 200g Cream Cheese  
@@ -43,7 +42,7 @@ Tokyo Cheesecake 東京No.1芝士蛋糕
 13.取出蛋糕放涼後放入雪櫃冷藏4小時,完成
 
 /********************************************************************/
-Original Recipe
+# Original Recipe
 https://mr-cheesecake.com/blogs/news/no19_english
 
 cream cheese 200g
@@ -58,9 +57,7 @@ vanilla 1/4 piece
 tonka beans 1/2 piece
 cornstarch 20g
 
- 
-
-Preparation
+# Preparation
 
 -Line a parchment paper in cake tin
 -Bring cream cheese and egg yolk to the room temperature
@@ -70,19 +67,11 @@ Preparation
 -Cut open vanilla beans and scrape out the seeds
 -Preheat the oven to 180℃
 
- 
-
-Instructions
+# Instructions
 (1) Combine cream cheese and granulated sugar in the bowl, and mix in a hot-water bath until it has a smooth texture.
-
-
 (2) Combine sour cream and Greek yogurt in another bowl, and mix well using a rubber spatula.
 (3) Mix the 2 egg yolks and add into (2) above in thirds, mixing well with a whisk after each third is added. Add lemon juice and cornstarch and mix well.
-
-
 (4) Heat cream in a small pan on medium heat, add white chocolate, grated tonka beans, vanilla bean seeds and pods. Turn off the heat after bringing to a boil.
 (5) Mix (1) and (4) with a whisk. Add (3) and mix until it becomes smooth. Strain and pour into a cake tin lined with parchment paper.
-
-
 (6) Place the filled cake tin on a cooking sheet (at least 3 cm deep) and place into the oven. Pour 3 cm of water into the cooking sheet.
 (7) Bake at 180℃ for 25 min. and 150℃ for 20 min. Take out of the oven, allow it to cool, and turn the cheesecake out. Cool in the refrigerator for at least 4 hours.

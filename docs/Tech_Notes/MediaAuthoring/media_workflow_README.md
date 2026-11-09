@@ -1,3 +1,13 @@
+---
+title: Media Workflow Readme
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - MediaAuthoring
+status: in progress
+created: 2026-11-07
+updated: 2026-11-07
+---
 # Media Processing Workflow Toolset
 
 This document details the complete Python-based media processing pipeline refactored for high performance, Windows priority management, non-ASCII metadata resilience, and automated verification.

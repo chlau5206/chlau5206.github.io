@@ -1,3 +1,13 @@
+---
+title: Media Workflow Dev Spec
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - MediaAuthoring
+status: in progress
+created: 2026-11-07
+updated: 2026-11-07
+---
 ### Development Specification (Dev Spec)
 
 Below is the complete **Technical & Architectural Specification** for your Windows-based Python media processing pipeline.

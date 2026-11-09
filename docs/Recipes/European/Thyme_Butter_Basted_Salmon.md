@@ -1,3 +1,13 @@
+---
+title: Thyme Butter Basted Salmon
+category: Recipes
+tags:
+  - Recipes
+  - European
+status: in progress
+created: 2026-11-08
+updated: 2026-11-08
+---
 Thyme Butter-Basted Salmon
 
 Basting salmon in a mixture of butter, garlic and thyme make this salmon utterly irresistable
