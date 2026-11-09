@@ -105,7 +105,7 @@ title: {title}
 category: {category}
 tags:
 {tag_lines}
-status: completed
+status: in progress
 created: {created_str}
 updated: {updated_str}
 ---
