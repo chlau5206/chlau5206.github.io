@@ -16,7 +16,7 @@ updated: 2026-11-02
 Based on the  goal of **collecting, organizing, finding, filtering, and consolidating notes**, I think **AnythingLLM** or an **Obsidian AI plugin** would get you 80-90% of the benefit. Building your own ChromaDB + Ollama + RAG stack is an interesting engineering project, but it may be solving a future problem you don't have yet. Your current pain point sounds more like knowledge organization than AI infrastructure.
 If I were in your shoes, I'd spend my next weekend experimenting with **Smart Connections + Metadata Auto Classifier + Ollama**, not ChromaDB. That combination is much closer to "help me clean up the mess" than "build a futuristic AI knowledge system."
 
-#**Mission:** 
+# **Mission:** 
 Capture Notes -> AI Organizes -> AI Finds Duplicates -> AI Suggests Merges - Publish Best Knowledge
 
 Phase 0 - Today's Archhitecture
@@ -60,29 +60,18 @@ Phase 9 - Add Semantic Search
 Phase 10 - Publication Pipeline
 Final Architecture (2-3 Years)
           Notes
-
             ↓
-
          Obsidian
-
             ↓
-
       AI Librarian
-
             ↓
-
  ┌──────────┼──────────┐
-
  │          │          │
-
 Category  Duplicate  Consolidation
-
 Detection Detection     Review
-
  │          │          │
-
  └───────Knowledge─────┘
-
             ↓
-
        GitHub/MkDocs
+
+	  
