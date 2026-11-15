@@ -52,7 +52,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.superfences       # Advanced code blocks & diagrams
   - pymdownx.details
-  - pymdownx.callout           # Enables > [!NOTE] callouts
+  
 
   - pymdownx.highlight:
       anchor_linenums: true
