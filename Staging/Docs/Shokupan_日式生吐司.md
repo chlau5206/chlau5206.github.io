@@ -9,28 +9,48 @@ created: 2026-11-08
 updated: 2026-11-08
 ---
 Shokupan -- Japanese Milk Bread Loaf -- 日式生吐司 
-------------------------------------------------------------------
-Try: for 450g loaf pan (7
-Bread Flour        230g
-Yudane(湯種)     105g
-.5&.5 Milk        150ml
-Sugar(+Honey)    25g
-Yeast                  4g
-Egg                1 (25g)
-Salt                     2g
-Butter                  20g
 
-======================================================
+Try: _for 450g loaf pan_
+Bread Flour        230g  
+Yudane(湯種)     105g  
+.5&.5 Milk        150ml  
+Sugar(+Honey)    25g  
+Yeast                  4g  
+Egg                1 (25g)  
+Salt                     2g  
+Butter                  20g  
+
+---
 很多人不知道什么是生吐司?其实生吐司就是指不用加任何东西单吃就很好吃的吐司，说也可以说原味吐司，我们现在推荐给大家量一款适合在家庭制作的日式生吐司的做法，操作比较简单易上手。
 
 日式生吐司原版配方材料明细：
-1. Bread Flour=高筋面粉250g、Sugar=糖25g、Salt=盐5g、Yeast=酵母3g、Milk=鲜奶175g、Cream=鲜奶油25g、Butter无盐奶油20g、Eggs=全蛋25g
-2. Bread Flour 1000g, Sugar 100g, Cream 100g, water 620g, Salt 15g, Honey 20g Butter 80g
-3. 高筋面粉500g、砂糖50g、盐10g、速发酵母6g、鲜奶350g、动物性鲜奶油50g、鸡蛋50g、无盐奶油40g
--------------------------------------------------------------------
+1. Bread Flour=高筋面粉250g、  
+   Sugar=糖25g、   
+   Salt=盐5g、  
+   Yeast=酵母3g、  
+   Milk=鲜奶175g、  
+   Cream=鲜奶油25g、  
+   Butter无盐奶油20g、  
+   Eggs=全蛋25g  
+2. Bread Flour 1000g,   
+   Sugar 100g,   
+   Cream 100g,   
+   water 620g,   
+   Salt 15g,   
+   Honey 20g   
+   Butter 80g    
+3. 高筋面粉500g、  
+   砂糖50g、  
+   盐10g、  
+   速发酵母6g、  
+   鲜奶350g、  
+   动物性鲜奶油50g、  
+   鸡蛋50g、  
+   无盐奶油40g  
 
-
-100%中种法北海道吐司:
+![日式生吐司](..\Attachments\Shokupan_日式生吐司.png)
+---
+## 100%中种法北海道吐司:
 1、今天的北海道吐司就用了100%中种法。此分量是2个450克吐司模的量。首先将中种原料：高粉500g、酵母3g、淡奶油150g、牛奶160g、蛋白35g、细砂糖15g，揉成团，放保鲜盒或盖保鲜膜室温下发酵至2.5倍大。可以提前一晚揉个中种放冰箱冷藏发酵17小时以上，成品的口感会更好。
 2、发好的中种面团很容易就能撕成小块，再与主面团原料混合，-主面团的原料：蛋白40g、酵母2g、细砂糖75g、奶粉30g、盐6g一起揉至较光滑。
 3、再加入黄油20g继续揉至完出筋完全状态，这里的面团能用手撑开而不破。然后发酵半小时左右.
@@ -45,7 +65,7 @@ Butter                  20g
 20% 即為120g，根據比例1:5 即為麵粉20g 水100g
  再往回扣除主麵糰中的麵粉20g，液體100g，即為妳剩下麵粉 以及液體需要的量~
 ==========================================
-## YummyMummy  https://youtu.be/yOi_F5nWPQc
+## [YummyMummy](https://youtu.be/yOi_F5nWPQc)
 
 [材料]  帶蓋吐司一條 12兩
 高筋麵粉  270g
@@ -58,7 +78,7 @@ Butter                  20g
 冰水         50ml
 無鹽奶油  25g (軟化備用)
 
-湯種牛奶吐司 (https://yummymum.tw/tongzhongmilkbread/)
+[湯種牛奶吐司](https://yummymum.tw/tongzhongmilkbread/)
 [材料]1條土司份量 20X10X6公分模具 (7.87"x3.94"x2.36")
 高筋麵粉 20g 
 水           100g

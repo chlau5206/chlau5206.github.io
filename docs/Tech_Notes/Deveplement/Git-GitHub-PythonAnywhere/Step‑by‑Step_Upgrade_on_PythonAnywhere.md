@@ -14,40 +14,46 @@ created: 2026-10-30
 updated: 2026-11-02
 ---
 ### Step‑by‑Step Upgrade on PythonAnywhere
-📝 Migration Checklist: Flask Project Upgrade
-🔍 Pre‑Upgrade Prep
-- [ ] Clone your project (Git or manual copy) so you have a safe rollback.
-- [ ] Freeze dependencies:
-pip freeze > requirements.txt
-- [ ] Check library compatibility: Verify that Flask, SQLAlchemy, Jinja2, and any niche packages support Python 3.12/3.13.
-- [ ] Upgrade local environment first: Install Python 3.12/3.13 locally and run your app/tests there before touching PythonAnywhere.
+📝 Migration Checklist: Flask Project Upgrade  
 
-⚙️ Environment Setup
-- [ ] Create new virtualenv on PythonAnywhere:
-mkvirtualenv --python=/usr/bin/python3.12 flask312
-- (or /usr/bin/python3.13 for 3.13).
-- [ ] Reinstall dependencies:
-pip install -r requirements.txt
-- [ ] Update Web tab config: Point your Flask app to the new virtualenv path.
-- [ ] Reload app in PythonAnywhere.
-🧪 Testing & Validation- [ ] Run pytest locally and on PythonAnywhere to confirm all tests pass.
-- [ ] Check logs (error log, server log) for warnings or incompatibilities.
-- [ ] Verify WSGI file still points to the correct Flask app entry point.
-- [ ] Test routes manually (login, forms, API endpoints) to confirm runtime behavior.
-🛠️ Coding Considerations- Deprecations: Python 3.12/3.13 remove or warn about older APIs. Watch for:
-- distutils (deprecated — use setuptools).
-- Old asyncio patterns (some APIs changed).
-- collections aliases (e.g., collections.Mapping → collections.abc.Mapping).
-- Type hints: Python 3.12/3.13 improve typing; if you use type checking, update annotations.
-- Error messages: Tracebacks are more detailed — helpful, but may expose more info in logs.
-- Third‑party packages: Some C‑extension packages may need recompilation under the new interpreter.
-🔒 Config & Deployment Notes- [ ] Check system image: Ensure you’re on PythonAnywhere’s latest image (Ubuntu 22.04) to access 3.12/3.13.
-- [ ] Database drivers: If you use MySQL/Postgres, confirm driver compatibility with the new Python version.
-- [ ] Gunicorn/WSGI: Reinstall in the new virtualenv (pip install gunicorn).
-- [ ] Static files: Verify Flask’s static file serving works as expected after upgrade.
-- [ ] Backup old env: Keep your 3.10 virtualenv until you’re confident everything works.
-🚀 Rollback Plan- If something breaks, simply switch your PythonAnywhere Web tab back to the old 3.10 virtualenv.
-- No code changes needed — just reload the app.
+### 🔍 Pre‑Upgrade Prep  
+- [ ] Clone your project (Git or manual copy) so you have a safe rollback.   
+- [ ] Freeze dependencies:   
+	pip freeze > requirements.txt  
+- [ ] Check library compatibility: Verify that Flask, SQLAlchemy, Jinja2, and any niche packages support Python 3.12/3.13.  
+- [ ] Upgrade local environment first: Install Python 3.12/3.13 locally and run your app/tests there before touching PythonAnywhere.   
+
+### ⚙️ Environment Setup
+- [ ] Create new virtualenv on PythonAnywhere:  
+		mkvirtualenv --python=/usr/bin/python3.12 flask312  
+	- (or /usr/bin/python3.13 for 3.13).  
+- [ ] Reinstall dependencies:  
+		pip install -r requirements.txt  
+- [ ] Update Web tab config: Point your Flask app to the new virtualenv path.  
+- [ ] Reload app in PythonAnywhere.  
+
+### 🧪 Testing & Validation-    
+- [ ] Run pytest locally and on PythonAnywhere to confirm all tests pass.  
+- [ ] Check logs (error log, server log) for warnings or incompatibilities.   
+- [ ] Verify WSGI file still points to the correct Flask app entry point.  
+- [ ] Test routes manually (login, forms, API endpoints) to confirm runtime behavior.   
+
+### 🛠️ Coding Considerations
+- Deprecations: Python 3.12/3.13 remove or warn about older APIs. Watch for:   - distutils (deprecated — use setuptools).  
+- Old asyncio patterns (some APIs changed).  
+- collections aliases (e.g., collections.Mapping → collections.abc.Mapping).   
+- Type hints: Python 3.12/3.13 improve typing; if you use type checking, update annotations.  
+- Error messages: Tracebacks are more detailed — helpful, but may expose more info in logs.  
+- Third‑party packages: Some C‑extension packages may need recompilation under the new interpreter.  
+
+### 🔒 Config & Deployment Notes-   
+[ ] Check system image: Ensure you’re on PythonAnywhere’s latest image (Ubuntu 22.04) to access 3.12/3.13.  
+- [ ] Database drivers: If you use MySQL/Postgres, confirm driver compatibility with the new Python version.  
+- [ ] Gunicorn/WSGI: Reinstall in the new virtualenv (pip install gunicorn).  
+- [ ] Static files: Verify Flask’s static file serving works as expected after upgrade.  
+- [ ] Backup old env: Keep your 3.10 virtualenv until you’re confident everything works.  
+🚀 Rollback Plan- If something breaks, simply switch your PythonAnywhere Web tab back to the old 3.10 virtualenv.  
+- No code changes needed — just reload the app.  
 
 =================================================================================
 1. Check Your Current System Image

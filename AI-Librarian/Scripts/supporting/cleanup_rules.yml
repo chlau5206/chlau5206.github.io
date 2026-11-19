@@ -1,0 +1,21 @@
+section_headers:
+  - 材料:
+  - Ingredients:
+  - 做法:
+  - Directions:
+  - 溫馨提示:
+
+SECTION_HEADERS = {
+    "材料:",
+    "Ingredients:",
+    "Ingredient:",
+    "做法:",
+    "Directions:",
+    "Steps:",
+    "Method:",
+    "溫馨提示:",
+    "提示:",
+    "備註:",
+    "Notes:",
+}
+

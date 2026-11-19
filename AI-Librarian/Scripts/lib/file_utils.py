@@ -10,8 +10,7 @@ Upstream:
 """
 
 from pathlib import Path
-import yaml
-#print (yaml.__version__)
+import yaml      #print (yaml.__version__)
 
 def normalize_filename(filename: str) -> str:
     """
@@ -45,7 +44,12 @@ def should_skip_file(
     skip_files: set[str]
 ) -> bool:
 
-    rel_path = md_file.relative_to(docs_root)
+    try:
+        rel_path = md_file.relative_to(
+            docs_root
+        )
+    except ValueError:
+        return True
 
     if md_file.name.lower() in {
         x.lower()
@@ -63,6 +67,23 @@ def should_skip_file(
 
     return False
 
+    # rel_path = md_file.relative_to(docs_root)
+
+    # if md_file.name.lower() in {
+    #     x.lower()
+    #     for x in skip_files
+    # }:
+    #     return True
+
+    # for part in rel_path.parts[:-1]:
+
+    #     if part.lower() in {
+    #         x.lower()
+    #         for x in skip_folders
+    #     }:
+    #         return True
+
+    # return False
 
 def load_skip_config(
     config_file: Path
@@ -102,3 +123,30 @@ def load_skip_config(
         skip_folders,
         skip_files
     )
+
+def get_markdown_files(
+    docs_root: Path,
+    skip_folders: set[str],
+    skip_files: set[str]
+) -> list[Path]:
+    """
+    Return all markdown files after
+    applying skip rules.
+    """
+
+    files = []
+
+    for md_file in docs_root.rglob("*.md"):
+
+        if should_skip_file(
+            md_file,
+            docs_root,
+            skip_folders,
+            skip_files
+        ):
+            continue
+
+        files.append(md_file)
+
+    return sorted(files)
+
