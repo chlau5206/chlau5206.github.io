@@ -1,3 +1,13 @@
+---
+title: Oven Baked Baby Back Ribs
+category: Recipes
+tags:
+  - Recipes
+  - American
+status: in progress
+created: 2026-11-19
+updated: 2026-11-19
+---
 ## Oven-baked baby back ribs time and temperature:  
 
 The ideal method for baking baby back ribs in the oven is cooking low and slow at **275°F (135°C) for 2.5 to 3 hours**, wrapped tightly in aluminum foil to lock in moisture and yield fall-off-the-bone tenderness.

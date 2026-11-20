@@ -1,3 +1,13 @@
+---
+title: Comment Based Help
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Deveplement
+status: in progress
+created: 2026-11-11
+updated: 2026-11-11
+---
 This block of text is known as **Comment-Based Help** (or a **Help Documentation Block**) in PowerShell. It allows scripts and functions to have built-in documentation that users can access directly in the console using commands like `Get-Help .\MediaMaster.ps1`.
 
 ```

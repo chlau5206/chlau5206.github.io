@@ -1,3 +1,13 @@
+---
+title: Disk Drive Repair
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - WindowsOS
+status: in progress
+created: 2026-11-15
+updated: 2026-11-20
+---
 # Sometimes CHKDSK can fix minor corruption without formatting:
 	chkdsk X: /f /r /x
 
@@ -36,5 +46,3 @@
 	- quick → Performs a quick format (optional)
 	- compress → Enables NTFS compression (optional, NTFS only)
 	- override → Forces format even if volume is in use (use with caution)
-
-

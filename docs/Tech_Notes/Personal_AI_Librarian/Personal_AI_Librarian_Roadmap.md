@@ -20,19 +20,92 @@ updated: 2026-11-02
 4. Classify
 5. Maintain
 
-### Tools: 
-1. Metadata Auto Classifier v1
-2. Note Health Report
-3. 
-   
-3. AI Curator
-
 ### Data Storage:
 Obsidian -> Git->GitHub Pages
 
-### Priority order: 
-Metadata auto classifier -> Note Health Report -> AI Tag Generator 
-	-> Duplicate Detector -> AI Curator Report
+### Workflow order: 
+- [X] Metadata auto classifier 
+- [X] Markdown Cleanup
+- [ ] Note Health Report
+- [ ] Duplicate Detector
+- [ ] AI Tag Generator 
+- [ ] AI Curator Report
+
+### 1. Metadata Auto Classifier
+
+職責：
+	- 修正 Frontmatter
+	- 修正檔名
+	- 補 Category
+	- 補 Metadata
+最先執行。
+
+因為後面所有工具都要依賴：
+YAML
+	- title
+	- category
+	- tags
+
+---
+### 2. Markdown Cleanup
+
+職責：
+	- 修正 Markdown 格式
+	- 修正 HTML Import
+	- 修正 <br>
+	- 移除奇怪格式
+
+做完之後：
+	Markdown = 乾淨版
+
+---
+### 3. Note Health Report
+此時才做分析：
+	- Missing Metadata
+	- Empty Note
+	- Large Note
+	- Stale Note
+
+結果才準確。
+
+---
+### 4. Duplicate Detector
+
+我甚至會讓它分析：
+``` Python
+strip_front_matter(content)
+```
+
+之後再比較。
+
+因為：
+``` YAML
+updated: 2026-11-04
+```
+	
+不應該影響重複判定。
+
+---
+### 5. AI Tag Generator
+此時：
+	Metadata 已完成
+	Markdown 已清理
+	LLM 取得的是最佳內容。
+
+---
+### 6. AI Curator Report
+最後執行。
+
+因為它會依賴：
+	- Category
+	- Tags
+	- Duplicates
+	- Vault Health
+
+全部結果。
+
+它其實是：
+	AI Librarian Weekly Summary
 
 Phase 3.1 : Metadata Standards
 ---

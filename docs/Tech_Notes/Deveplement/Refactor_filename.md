@@ -1,3 +1,13 @@
+---
+title: Refactor Filename
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Deveplement
+status: in progress
+created: 2026-11-15
+updated: 2026-11-15
+---
 ### Refined Transformation & Sanitization Block Example
 
 Here is how you can polish that section to ensure perfect execution order and clean separation of base vs. extension:

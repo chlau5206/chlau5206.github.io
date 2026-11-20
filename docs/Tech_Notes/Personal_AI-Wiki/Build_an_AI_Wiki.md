@@ -37,6 +37,3 @@ updated: 2026-11-02
 	Local AI Wiki
 	+
 	Auto-ingest YouTube/PDFs
-
-
-

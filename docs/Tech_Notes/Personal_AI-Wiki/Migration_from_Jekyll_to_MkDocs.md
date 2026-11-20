@@ -58,5 +58,3 @@ when your wiki becomes your long‑term knowledge base.
 ###  Switch to Zensical
 
 later (2027–2028) when it matures.
-
-

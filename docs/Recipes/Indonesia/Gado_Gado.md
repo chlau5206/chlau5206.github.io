@@ -1,3 +1,13 @@
+---
+title: Gado Gado
+category: Recipes
+tags:
+  - Recipes
+  - Indonesia
+status: in progress
+created: 2026-11-14
+updated: 2026-11-20
+---
 ### 印尼加多加多醬(Gado Gado)（一至二人份量）
 
 To prepare an authentic version, follow these key steps:

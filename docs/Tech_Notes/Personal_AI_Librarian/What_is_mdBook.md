@@ -1,3 +1,13 @@
+---
+title: What Is Mdbook
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+status: in progress
+created: 2026-11-16
+updated: 2026-11-16
+---
 **mdBook** is ==a free, open-source command-line tool written in Rust that converts plain Markdown files into clean, navigable online books and static websites==. Originally created for the Rust ecosystem, it functions similarly to tools like GitBook and is widely used for technical documentation, tutorials, and course materials. [[1](https://rust-lang.github.io/mdBook/), [2](https://sourceforge.net/projects/mdbook.mirror/), [3](https://mdbook.code-maven.com/)]
 
 ## Key Features

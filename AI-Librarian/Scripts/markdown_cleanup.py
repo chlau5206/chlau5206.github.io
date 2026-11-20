@@ -43,25 +43,6 @@ from lib.markdown_utils import (
     write_markdown,
 )
 
-
-# SECTION_HEADERS = {
-#     "材料:",
-#     "食材:"
-#     "Ingredients:",
-#     "Ingredient:",
-#     "做法:",
-#     "Directions:",
-#     "Instructions",
-#     "Steps:",
-#     "Method:",
-#     "溫馨提示:",
-#     "提示:",
-#     "備註:",
-#     "小贴士:",
-#     "Notes:",
-# }
-
-
 def fix_content(text: str) -> str:
 
     lines = text.splitlines()
@@ -150,7 +131,7 @@ def main():
     )
 
     parser.add_argument(
-        "--docs",
+        "--docs", "-s",
         default="docs"
     )
 

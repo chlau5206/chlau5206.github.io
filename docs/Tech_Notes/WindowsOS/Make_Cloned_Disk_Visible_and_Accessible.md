@@ -1,3 +1,13 @@
+---
+title: Make Cloned Disk Visible And Accessible
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - WindowsOS
+status: in progress
+created: 2026-11-15
+updated: 2026-11-20
+---
 When you clone a hard drive sector-by-sector, the cloned disk inherits an exact duplicate of the original disk's **Disk Signature** (on MBR disks) or **Disk GUID** (on GPT disks). Because Windows requires unique identifiers for every attached storage device to prevent data corruption and drive conflicts, it will automatically "offline" or hide the duplicate disk if both are connected to the same system at the same time.
 
 To make the cloned disk visible and accessible alongside the original, you need to change its disk signature/ID using Windows built-in disk management tools.
@@ -101,4 +111,3 @@ _Verification:_ DiskPart confirms that the disk identifier has been successfully
 
 # Important Safety Note
 If you cloned your boot drive and plan to boot directly from the new cloned disk, it is usually best to **shut down the PC, physically disconnect the old source drive, and boot with only the cloned drive attached** first. This avoids Windows confusion over duplicate partition signatures during the initial boot sequence.
-

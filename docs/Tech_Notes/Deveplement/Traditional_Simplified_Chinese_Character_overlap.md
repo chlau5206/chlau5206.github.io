@@ -62,4 +62,3 @@ The **ten primary dialect groups** are:
     
 
 While **Mandarin** and **Cantonese** are the most widely spoken, many varieties like **Wu** and **Min** are not mutually intelligible with Mandarin or each other. Linguists estimate there are over **300 identifiable dialects**, with more than 1,000 if village-level variations are included.
-

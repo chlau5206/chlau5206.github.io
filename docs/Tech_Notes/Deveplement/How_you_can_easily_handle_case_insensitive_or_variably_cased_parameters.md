@@ -1,3 +1,13 @@
+---
+title: How You Can Easily Handle Case Insensitive Or Variably Cased Parameters
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Deveplement
+status: in progress
+created: 2026-11-15
+updated: 2026-11-20
+---
 #### Automatic Pre-processing (Best to catch _any_ wild capitalization)
 
 ### In PowerShell (Natively Automatic)

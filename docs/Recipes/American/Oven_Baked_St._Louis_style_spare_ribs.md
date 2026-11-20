@@ -1,3 +1,13 @@
+---
+title: Oven Baked St. Louis Style Spare Ribs
+category: Recipes
+tags:
+  - Recipes
+  - American
+status: in progress
+created: 2026-11-19
+updated: 2026-11-19
+---
 ## oven-baked St. Louis style spare ribs:  
 
 Because St. Louis ribs are cut from the belly side of the pig, they are meatier, flatter, and contain more fat and collagen than baby back ribs. This extra fat makes them rich and juicy, but requires slightly more time low-and-slow to tenderize.
