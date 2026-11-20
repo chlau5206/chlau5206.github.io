@@ -53,7 +53,6 @@ markdown_extensions:
   - pymdownx.superfences       # Advanced code blocks & diagrams
   - pymdownx.details
   
-
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -61,6 +60,8 @@ markdown_extensions:
 
   - pymdownx.tabbed:
       alternate_style: true
+
+  - nl2br
   - attr_list
   - md_in_html
   - tables

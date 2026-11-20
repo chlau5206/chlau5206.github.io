@@ -11,7 +11,8 @@ temp/
 workspace/
 private/
 markitdown-main/
-
+site/
+Testing/
 Migrate_to_md.py
 
 # Compiled source #

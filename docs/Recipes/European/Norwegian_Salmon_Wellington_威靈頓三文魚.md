@@ -9,7 +9,7 @@ created: 2026-11-08
 updated: 2026-11-08
 ---
 Norwegian Salmon Wellington 威靈頓三文魚 
-
+## 材料
 兩件份量 Serve2
 三文魚柳 2 Salmon Fillets
 忌廉芝士 60g Cream Cheese 
@@ -24,6 +24,7 @@ Norwegian Salmon Wellington 威靈頓三文魚
 鹽 Salt 
 黑椒 Blackpepper 
 
+## 做法:
 1.洋蔥及蒜頭去皮切碎備用
 2.炒香洋蔥及蒜頭 
 3.洋蔥變半透明後加入白酒稍

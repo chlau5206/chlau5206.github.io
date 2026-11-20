@@ -15,6 +15,7 @@ updated: 2026-11-02
 ### Bushman Bread-黑糖麵包
 
 6個份量 6pcs  
+## 材料:
 高筋麵粉 50g Bread Flour  
 水 35ml Water   
 酵母 1g Instant Yeast  
@@ -31,6 +32,7 @@ updated: 2026-11-02
 牛奶 175ml Milk  
 無鹽牛油 20g Unsalted Butter  
 
+## 做法:
 1.高筋麵粉及鹽拌勻  
 2.酵母及水拌勻備用  
 3.砂糖及黑糖蜜拌勻  

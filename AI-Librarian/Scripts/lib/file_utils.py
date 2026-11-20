@@ -36,6 +36,26 @@ def normalize_filename(filename: str) -> str:
 
     return name + p.suffix
 
+def load_yaml_config(
+    config_path: Path
+) -> dict:
+    """
+    Load a YAML configuration file.
+
+    Returns:
+        dict
+    """
+
+    if not config_path.exists():
+        return {}
+
+    with open(
+        config_path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        return yaml.safe_load(f) or {}
 
 def should_skip_file(
     md_file: Path,
@@ -67,23 +87,6 @@ def should_skip_file(
 
     return False
 
-    # rel_path = md_file.relative_to(docs_root)
-
-    # if md_file.name.lower() in {
-    #     x.lower()
-    #     for x in skip_files
-    # }:
-    #     return True
-
-    # for part in rel_path.parts[:-1]:
-
-    #     if part.lower() in {
-    #         x.lower()
-    #         for x in skip_folders
-    #     }:
-    #         return True
-
-    # return False
 
 def load_skip_config(
     config_file: Path
@@ -96,14 +99,9 @@ def load_skip_config(
         skip_files
     """
 
-    if not config_file.exists():
-        return set(), set()
-
-    data = yaml.safe_load(
-        config_file.read_text(
-            encoding="utf-8"
-        )
-    ) or {}
+    data = load_yaml_config(
+        config_file
+    )
 
     skip_folders = set(
         data.get(

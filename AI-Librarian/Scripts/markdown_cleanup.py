@@ -36,11 +36,30 @@ import argparse
 from lib.file_utils import (
     load_skip_config,
     get_markdown_files,
+    load_yaml_config,
 )
 from lib.markdown_utils import (
     read_markdown,
     write_markdown,
 )
+
+
+# SECTION_HEADERS = {
+#     "材料:",
+#     "食材:"
+#     "Ingredients:",
+#     "Ingredient:",
+#     "做法:",
+#     "Directions:",
+#     "Instructions",
+#     "Steps:",
+#     "Method:",
+#     "溫馨提示:",
+#     "提示:",
+#     "備註:",
+#     "小贴士:",
+#     "Notes:",
+# }
 
 
 def fix_content(text: str) -> str:
@@ -54,9 +73,13 @@ def fix_content(text: str) -> str:
     for line in lines:
 
         stripped = line.strip()
-
-        if stripped in SECTION_HEADERS:
-
+        cleanup_rule_file = (
+            Path(__file__).parent
+            / "Supporting"
+            / "cleanup_rule.yml"
+        )
+        SECTION_HEADERS = load_yaml_config(cleanup_rule_file)
+        if  stripped in  SECTION_HEADERS:
             inside_section = True
             output.append(line)
 

@@ -10,6 +10,7 @@ Upstream:
 
 from pathlib import Path
 import yaml
+from lib.file_utils import load_yaml_config
 from lib.metadata_utils import (
     extract_front_matter
 )
@@ -46,15 +47,16 @@ def load_categories(
     """
     Load categories.yml
     """
+    # if not yaml_file.exists():
+    #     return {}
 
-    if not yaml_file.exists():
-        return {}
+    # return yaml.safe_load(
+    #     yaml_file.read_text(
+    #         encoding="utf-8"
+    #     )
+    # ) or {}
 
-    return yaml.safe_load(
-        yaml_file.read_text(
-            encoding="utf-8"
-        )
-    ) or {}
+    return load_yaml_config(yaml_file) or {}
 
 def strip_front_matter(
     content: str
