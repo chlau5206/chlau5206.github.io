@@ -10,7 +10,10 @@ Upstream:
 
 from pathlib import Path
 import yaml
-
+from lib.file_utils import load_yaml_config
+from lib.metadata_utils import (
+    extract_front_matter
+)
 
 def read_markdown(
     path: Path
@@ -27,15 +30,16 @@ def read_markdown(
 
         return ""
 
+# This used in Markdown_cleanup.py, AI_Tag_Generater.py, Duplicate_Detector.py
+def write_markdown(
+    path: Path,
+    content: str
+):
 
-def get_markdown_files(
-    docs_root: Path
-) -> list[Path]:
-
-    return sorted(
-        docs_root.rglob("*.md")
+    path.write_text(
+        content,
+        encoding="utf-8"
     )
-
 
 def load_categories(
     yaml_file: Path
@@ -43,13 +47,32 @@ def load_categories(
     """
     Load categories.yml
     """
+    # if not yaml_file.exists():
+    #     return {}
 
-    if not yaml_file.exists():
-        return {}
+    # return yaml.safe_load(
+    #     yaml_file.read_text(
+    #         encoding="utf-8"
+    #     )
+    # ) or {}
 
-    return yaml.safe_load(
-        yaml_file.read_text(
-            encoding="utf-8"
-        )
-    ) or {}
+    return load_yaml_config(yaml_file) or {}
+
+def strip_front_matter(
+    content: str
+) -> str:
+
+    _, body = extract_front_matter(
+        content
+    )
+
+    return body
+
+def word_count(
+    content: str
+) -> int:
+
+    return len(
+        content.split()
+    )
 

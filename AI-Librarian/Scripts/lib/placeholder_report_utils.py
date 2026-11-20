@@ -13,6 +13,10 @@ def add_heading(lines, level, text):
 def add_bullet(lines, text):
     lines.append(f"- {text}")
 
+def report_section(path, content):  # in progress
+    '''
+        code
+    '''
 
 
 def save_report(path, content):  # in progress

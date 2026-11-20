@@ -1,0 +1,10 @@
+skip_folders:
+  - reports
+  - site
+  - .obsidian
+  - Templates
+
+skip_files:
+  - index.md
+  
+  
