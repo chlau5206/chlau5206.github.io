@@ -41,7 +41,6 @@ Git Commit / Push
 
 import argparse
 import re
-
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
@@ -64,34 +63,7 @@ DEFAULT_SKIP_FILES = frozenset({
 STALE_DAYS = 365
 LOW_TAG_THRESHOLD = 3
 LARGE_NOTE_LINES = 500
-
-
-# ---------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------
-
-# def should_skip_file(
-#     md_file: Path,
-#     docs_root: Path,
-#     skip_folders=DEFAULT_SKIP_FOLDERS,
-#     skip_files=DEFAULT_SKIP_FILES
-# ) -> bool:
-
-#     rel_path = md_file.relative_to(docs_root)
-
-#     if md_file.name.lower() in {
-#         x.lower()
-#         for x in skip_files
-#     }:
-#         return True
-
-#     for folder in rel_path.parts[:-1]:
-
-#         if folder in skip_folders:
-#             return True
-
-#     return False
-
+NOW = datetime.now()
 
 def extract_front_matter(
     content: str
@@ -177,7 +149,7 @@ def analyze_vault(
         "stale_notes": [],
     }
 
-    now = datetime.now()
+
 
     for md_file in docs_root.rglob("*.md"):
 
@@ -246,10 +218,9 @@ def analyze_vault(
             )
 
         age_days = (
-            now
-            - datetime.fromtimestamp(
-                md_file.stat().st_mtime
-            )
+            NOW - datetime.fromtimestamp(
+                    md_file.stat().st_mtime
+                    )
         ).days
 
         if age_days > STALE_DAYS:
@@ -290,7 +261,7 @@ def write_report(
     )
 
     output.append(
-        f"Generated: {datetime.now():%Y-%m-%d %H:%M:%S}\n"
+        f"Generated: {NOW.strftime('%Y-%m-%d %H:%M:%S')}\n"
     )
 
     output.append(
@@ -453,16 +424,28 @@ def main():
         description="AI Curator Report"
     )
 
+    # parser.add_argument(
+    #     "--docs",
+    #     required=True,
+    #     help="Docs folder"
+    # )
+
     parser.add_argument(
-        "--docs",
-        required=True,
-        help="Docs folder"
+            "--docs",
+            default="docs",
+            help="Docs root directory"
+        )
+
+    docs_root = Path(args.docs)
+    report_file = (
+        docs_root.parent
+        / "Reports"
+        / f"AI_Curator_Report_{NOW.strftime('%Y-%m-%d_%H-%M')}.md"
     )
 
-    today = datetime.now.strftime('%Y-%m-%d')
     parser.add_argument(
         "--output",
-        default=f"Reports/AI_Curator_Report_{today}.md",
+        default=report_file,
         help="Report file"
     )
 

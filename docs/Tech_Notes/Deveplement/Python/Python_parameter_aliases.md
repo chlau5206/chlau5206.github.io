@@ -1,3 +1,14 @@
+---
+title: Python Parameter Aliases
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Deveplement
+  - Python
+status: in progress
+created: 2026-11-18
+updated: 2026-11-18
+---
 ### Python argparse
 
 ```  Python

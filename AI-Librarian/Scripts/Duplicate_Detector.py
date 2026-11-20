@@ -1,7 +1,5 @@
-# Duplicate_Detector.py
 #!/usr/bin/env python3
-"""
-Duplicate_Detector.py
+""" Duplicate_Detector.py
 
 Purpose:
     Scan a MkDocs / Obsidian vault for potential duplicate notes.
@@ -28,6 +26,7 @@ from difflib import SequenceMatcher
 import argparse
 from datetime import datetime
 import hashlib
+from lib.file_utils import *
 from lib.markdown_utils import * 
 from lib.metadata_utils import * 
 
@@ -154,7 +153,7 @@ def generate_report(
 
     lines.append("# Duplicate Report")
     lines.append("")
-    lines.append(f"Generated: {NOW}.strftime('%Y-%m-%d %H:%M')")  
+    lines.append(f"Generated: {NOW}.strftime('%Y-%m-%d_%H:%M')")  
     lines.append("")
     lines.append(f"Threshold: {threshold}%")
     lines.append("")
@@ -276,7 +275,7 @@ def main():
     report_file = (
         docs_root
         / "reports"
-        / f"Duplicate_Report_{NOW.strftime('%Y-%m-%d')}.md"
+        / f"Duplicate_Report_{NOW}.strftime('%Y-%m-%d_%H-%M').md"
     )
 
     generate_report(

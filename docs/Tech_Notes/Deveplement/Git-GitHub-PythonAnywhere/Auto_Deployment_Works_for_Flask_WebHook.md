@@ -1,3 +1,14 @@
+---
+title: Auto Deployment Works For Flask Webhook
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Deveplement
+  - Git-GitHub-PythonAnywhere
+status: in progress
+created: 2026-11-16
+updated: 2026-11-16
+---
 By setting up a webhook between GitHub and your Flask app, every time you `git push` changes to GitHub, PythonAnywhere will automatically pull the new code and reload your web app—giving you hands-off continuous deployment.
 
 ### How Auto-Deployment Works for Flask

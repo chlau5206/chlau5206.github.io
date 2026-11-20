@@ -1,3 +1,13 @@
+---
+title: Oven Baked Beef Brisket
+category: Recipes
+tags:
+  - Recipes
+  - American
+status: in progress
+created: 2026-11-19
+updated: 2026-11-19
+---
 ## Oven-baked beef brisket temperatures, cooking times, marinades, and techniques:  
 
 Beef brisket is a tough, collagen-heavy cut from the breast area of the cow. To make it melt-in-your-mouth tender in a standard home oven, it requires low heat, ample time, and proper moisture-sealing techniques.

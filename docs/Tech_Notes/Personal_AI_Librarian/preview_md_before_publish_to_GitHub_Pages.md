@@ -1,3 +1,13 @@
+---
+title: Preview Md Before Publish To Github Pages
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Personal_AI_Librarian
+status: in progress
+created: 2026-11-14
+updated: 2026-11-20
+---
 ## Workflow:
 Obsidian -> Edit Markdown -> mkdocs serve -> Browser Preview 
 	-> Git Commit -> Git Push 

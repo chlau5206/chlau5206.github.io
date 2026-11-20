@@ -1,3 +1,13 @@
+---
+title: Combining Two Video Files Into One Longer Video
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - MediaAuthoring
+status: in progress
+created: 2026-11-18
+updated: 2026-11-20
+---
 ### FFmpeg (no re-encoding, fastest)
 If both videos have the same:
 - Codec (H.264, HEVC, etc.)
@@ -334,4 +344,3 @@ if __name__ == "__main__":
     main()
 
 ```
-

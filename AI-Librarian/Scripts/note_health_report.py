@@ -74,9 +74,9 @@ def main():
     docs_root = Path(args.docs)
 
     report_file = (
-        docs_root
+        docs_root.parent
         / "Reports"
-        / f"Vault_Health_Report_{NOW.strftime('%Y-%m-%d')}.md"
+        / f"Vault_Health_Report_{NOW.strftime('%Y-%m-%d_%H-%M')}.md"
     )
 
     markdown_files = [

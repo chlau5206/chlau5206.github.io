@@ -1,3 +1,13 @@
+---
+title: Aioli Dressing
+category: Recipes
+tags:
+  - Recipes
+  - Sauce_n_Dressing
+status: in progress
+created: 2026-11-13
+updated: 2026-11-20
+---
 ### Quick Method (Using Mayo)
 
 **Ingredients**:   

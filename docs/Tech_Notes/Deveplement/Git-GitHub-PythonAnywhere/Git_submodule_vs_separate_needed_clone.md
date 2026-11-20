@@ -1,3 +1,14 @@
+---
+title: Git Submodule Vs Separate Needed Clone
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Deveplement
+  - Git-GitHub-PythonAnywhere
+status: in progress
+created: 2026-11-16
+updated: 2026-11-20
+---
 Both a **Git submodule** and a **separate nested clone** let you place one Git repository (`AppAdmin`) inside the folder of another Git repository (`FlaskApp`), allowing you to keep their codebases and permissions (Public vs. Private) separate while running them together as one app.
 
 The difference lies in **whether the parent repo (`FlaskApp`) tracks which version of the child repo (`AppAdmin`) it needs**.
@@ -36,4 +47,3 @@ Which One Fits Your Setup?
 
 - If you want **zero extra steps** when deploying—meaning you can push a fix to `AppAdmin` and have PythonAnywhere pull it immediately without touching `FlaskApp`—a **separate nested clone** (with `AppAdmin/` in `FlaskApp`'s `.gitignore`) is the cleanest choice.
 - If `FlaskApp` and `AppAdmin` depend heavily on specific matching versions of each other's code, use a **Git submodule**.
-

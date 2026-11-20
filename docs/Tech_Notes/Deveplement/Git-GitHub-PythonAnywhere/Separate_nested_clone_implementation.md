@@ -1,3 +1,14 @@
+---
+title: Separate Nested Clone Implementation
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - Deveplement
+  - Git-GitHub-PythonAnywhere
+status: in progress
+created: 2026-11-16
+updated: 2026-11-16
+---
 Setting up a **separate nested clone** is straightforward and keeps your public `FlaskApp` repository completely unaware of your private `AppAdmin` repository, while letting Python import `AppAdmin` seamlessly as a local module.
 
 Here is the complete step-by-step guide covering local setup, Flask integration, PythonAnywhere deployment, and webhook automation.

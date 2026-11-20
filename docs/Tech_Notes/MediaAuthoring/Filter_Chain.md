@@ -1,3 +1,13 @@
+---
+title: Filter Chain
+category: Tech_Notes
+tags:
+  - Tech_Notes
+  - MediaAuthoring
+status: in progress
+created: 2026-11-10
+updated: 2026-11-10
+---
 ```
  def get_video_filter(video_type: str, log_file: Path, debug_mode: bool) -> str:
 
