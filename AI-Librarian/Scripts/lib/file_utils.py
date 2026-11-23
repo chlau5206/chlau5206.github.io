@@ -45,7 +45,7 @@ def load_yaml_config(
     Returns:
         dict
     """
-
+    the_path = Path(config_path).resolve()
     if not config_path.exists():
         return {}
 
@@ -86,7 +86,6 @@ def should_skip_file(
             return True
 
     return False
-
 
 def load_skip_config(
     config_file: Path

@@ -7,4 +7,6 @@
 7. each module has different parameter list, that cause Weekend Runner break. 
 8. Duplicate_Detector.py does not utilize File_Utils.py
 9. Note_Health_Report conflict with Metadata_classifier when script re-run. 
+10. Docs-to-MD: way to handle pic -> attachment
+
 

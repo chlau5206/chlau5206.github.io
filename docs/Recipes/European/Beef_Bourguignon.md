@@ -1,6 +1,14 @@
-Beef Bourguignon 
-(Beef Burgundy, French Beef stew)
-https://www.recipetineats.com/beef-bourguignon-beef-burgundy/
+---
+title: Beef Bourguignon
+category: Recipes
+tags:
+  - Recipes
+  - French
+status: in progress
+created: 2026-11-08
+updated: 2026-11-08
+---
+# [Beef Bourguignon (French Beef stew)](https://www.recipetineats.com/beef-bourguignon-beef-burgundy/)
 
 Beef Marinade:
 800g/1.6 lb 			Chuck Beef
@@ -49,4 +57,3 @@ Part 2: Making the Stew
 Part 3. Slow-Cooking
 1. slow-cooking
 2. add Onion and mushroom.
-

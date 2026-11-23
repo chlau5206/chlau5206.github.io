@@ -1,8 +1,5 @@
-### metadata_classifier.py  11/2/2026
 #!/usr/bin/env python3
-
-"""
-metadata_classifier.py
+""" metadata_classifier.py
 
 Author: Charles H Lau
 
@@ -178,20 +175,21 @@ def main():
     )
 
     parser.add_argument(
-        "--docs",
-        required=True,
-        help="Path to docs root"
+        "--docs", "-s",
+        default="docs",
+        # required=True,
+        help="Docs root directory"
+    )
+
+    parser.add_argument(
+        "--dry-run", "-d",
+        action="store_true",
+        help="Preview changes only"
     )
 
     parser.add_argument(
         "--file",
         help="Process a single file"
-    )
-
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Preview changes only"
     )
 
     args = parser.parse_args()
