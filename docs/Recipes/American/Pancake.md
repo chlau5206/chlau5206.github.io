@@ -13,8 +13,8 @@ created: 2026-11-02
 updated: 2026-11-02
 ---
 
-### Classic Pancakes Recipe
-Ingredients:
+## Classic Pancakes Recipe
+### Ingredients:
 1 cup all-purpose flour
 2 tablespoons granulated sugar
 2 teaspoons baking powder

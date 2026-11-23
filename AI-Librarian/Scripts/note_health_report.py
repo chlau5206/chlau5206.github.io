@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """ note_health_report.py
 Author: Charles H Lau
 
@@ -64,11 +63,18 @@ def main():
     )
 
     parser.add_argument(
-        "--docs",
+        "--docs", "-s",
         default="docs",
+        # required=True,
         help="Docs root directory"
     )
 
+    parser.add_argument(
+        "--dry-run", "-d",
+        action="store_true",
+        help="Preview changes only"
+    )
+    
     args = parser.parse_args()
 
     docs_root = Path(args.docs)

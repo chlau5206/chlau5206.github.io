@@ -424,17 +424,18 @@ def main():
         description="AI Curator Report"
     )
 
-    # parser.add_argument(
-    #     "--docs",
-    #     required=True,
-    #     help="Docs folder"
-    # )
+    parser.add_argument(
+        "--docs", "-s",
+        default="docs",
+        # required=True,
+        help="Docs root directory"
+    )
 
     parser.add_argument(
-            "--docs",
-            default="docs",
-            help="Docs root directory"
-        )
+        "--dry-run", "-d",
+        action="store_true",
+        help="Preview changes only"
+    )
 
     docs_root = Path(args.docs)
     report_file = (

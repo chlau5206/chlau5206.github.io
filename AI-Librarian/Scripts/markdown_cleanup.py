@@ -1,33 +1,26 @@
 #!/usr/bin/env python3
+""" Markdown_Cleanup.py
 
-"""
-Markdown_Cleanup.py
+Fix imported markdown files that render differently in MkDocs.
 
-Fix imported markdown files that
-render differently in MkDocs.
-
-Converts recipe-style sections so
-MkDocs preserves line breaks.
+Converts recipe-style sections so MkDocs preserves line breaks.
 
 Example:
-
-材料:
-牛奶 100克
-雞蛋 2個
+    材料:
+    牛奶 100克
+    雞蛋 2個
 
 becomes
-
-材料:
-牛奶 100克··
-雞蛋 2個··
+    材料:
+    牛奶 100克··
+    雞蛋 2個··
 
 (where ·· = two spaces)
 
 Usage:
-
-python Markdown_Cleanup.py
-python Markdown_Cleanup.py --dry-run
-python Markdown_Cleanup.py --docs docs
+    python Markdown_Cleanup.py
+    python Markdown_Cleanup.py --dry-run
+    python Markdown_Cleanup.py --docs docs
 """
 
 from pathlib import Path
@@ -123,7 +116,6 @@ def process_file(
 
     return True
 
-
 def main():
 
     parser = argparse.ArgumentParser(
@@ -132,12 +124,15 @@ def main():
 
     parser.add_argument(
         "--docs", "-s",
-        default="docs"
+        default="docs",
+        # required=True,
+        help="Docs root directory"
     )
 
     parser.add_argument(
-        "--dry-run",
-        action="store_true"
+        "--dry-run", "-d",
+        action="store_true",
+        help="Preview changes only"
     )
 
     args = parser.parse_args()

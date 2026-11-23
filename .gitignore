@@ -12,6 +12,8 @@ workspace/
 private/
 markitdown-main/
 site/
+Staging/
+Reports/
 Testing/
 Migrate_to_md.py
 

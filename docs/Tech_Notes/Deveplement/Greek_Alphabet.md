@@ -8,3 +8,4 @@ status: in progress
 created: 2026-11-19
 updated: 2026-11-19
 ---
+![](Attachments/Greek_Alphabet.png)

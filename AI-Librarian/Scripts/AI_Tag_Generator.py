@@ -362,22 +362,22 @@ def main():
     )
 
     parser.add_argument(
-        "--docs",
-        required=True,
-        help="Docs root"
+        "--docs", "-s",
+        default="docs",
+        # required=True,
+        help="Docs root directory"
+    )
+
+    parser.add_argument(
+        "--dry-run", "-d",
+        action="store_true",
+        help="Preview changes only"
     )
 
     parser.add_argument(
         "--file",
         help=
         "Single file mode"
-    )
-
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help=
-        "Preview only"
     )
 
     args = parser.parse_args()

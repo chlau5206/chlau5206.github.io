@@ -33,16 +33,19 @@ from lib.metadata_utils import *
 # =====================================================================
 # CONFIG
 # =====================================================================
+skip_config = Path("Scripts/supporting/skip_config.yml")
 
 DEFAULT_SKIP_FOLDERS = frozenset({
     "Reports",
     "Archive"
 })
 
-DEFAULT_SKIP_FILES = frozenset({
+DEFAULT_SKIP_FILES = ({
     "index.md",
     "README.md"
 })
+
+# DEFAULT_SKIP_FILES = load_skip_config(skip_config)
 
 DEFAULT_THRESHOLD = 85
 NOW = datetime.now()
@@ -245,9 +248,16 @@ def main():
     )
 
     parser.add_argument(
-        "--docs",
+        "--docs", "-s",
         default="docs",
-        help="Docs root folder"
+        # required=True,
+        help="Docs root directory"
+    )
+
+    parser.add_argument(
+        "--dry-run", "-d",
+        action="store_true",
+        help="Preview changes only"
     )
 
     parser.add_argument(
@@ -261,8 +271,7 @@ def main():
 
     docs_root = Path(args.docs)
 
-    files = get_markdown_files(docs_root, DEFAULT_SKIP_FILES)
-
+    files = get_markdown_files(docs_root, DEFAULT_SKIP_FOLDERS, DEFAULT_SKIP_FILES)
     (
         exact_duplicates,
         filename_matches,
@@ -275,7 +284,7 @@ def main():
     report_file = (
         docs_root
         / "reports"
-        / f"Duplicate_Report_{NOW}.strftime('%Y-%m-%d_%H-%M').md"
+        / f"Duplicate_Report_{NOW.strftime('%Y-%m-%d_%H-%M')}.md"
     )
 
     generate_report(
