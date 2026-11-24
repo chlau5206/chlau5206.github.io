@@ -31,4 +31,4 @@ Martha Stewart
    (risotto will continue to thicken as it sits). Garnish with thyme leaves,
    if desired.
 
-![](Attachments/Riscotto.jpg)
+![](../Attachments/Riscotto.jpg)

@@ -14,7 +14,7 @@ updated: 2026-11-02
 ---
 
 # IKEA Swedish Meatballs at Home
-![IKEA Swedish Meatballs at Home](Attachments/IKEA_Meatballs_recipe.jpg)
+![IKEA Swedish Meatballs at Home](../Attachments/IKEA_Meatballs_recipe.jpg)
 
 ## Ingredients
 **Meatballs**

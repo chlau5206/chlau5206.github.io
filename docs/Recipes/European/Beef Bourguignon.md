@@ -1,4 +1,4 @@
-![](Attachments/BeefBourguignon.jpg)Beef Bourguignon 
+![](../Attachments/BeefBourguignon.jpg)Beef Bourguignon 
 (Beef Burgundy, French Beef stew)
 https://www.recipetineats.com/beef-bourguignon-beef-burgundy/
 

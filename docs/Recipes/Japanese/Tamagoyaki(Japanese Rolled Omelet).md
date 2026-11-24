@@ -1,0 +1,26 @@
+Tamagoyaki  Japanese Rolled Omelet  
+===================================
+Ingredients
+4 eggs
+3 tablespoons dashi soup stock
+1 1/2 to 2 tablespoons sugar
+Vegetable oil (for cooking)
+
+Steps to Make It
+1. Gather the ingredients.
+2. Beat eggs in a bowl.
+3. Add dashi soup and sugar in the egg and mix well.
+4. Heat a tamagoyaki pan over medium heat. Oil the pan.
+5. Pour a scoop of egg mixture in the pan and spread over the surface.
+6. Cook it until half done and roll the egg toward the bottom side.
+7. Move the rolled egg to the top side.
+8. Oil the empty part of the pan and pour another scoop of egg mixture in the space and under the rolled egg.
+9. Cook it until half done and roll the egg again so that the omelet becomes thicker.
+10. Cook the omelet until done.
+11. If you are using a regular frying pan, shape tamagoyaki on bamboo mat.
+12. Cut tamagoyaki into 1-inch thick pieces.
+13. Serve for breakfast, put in a bento as a side dish, or used as a filling in sushi.
+
+Tips
+1. Preferably, it's good to use a square tamagoyaki pan to make tamagoyaki, but it can be cooked in a regular frying pan.
+2. When sugar is added in tamagoyaki, it gets burned easily, so please watch the heat carefully.
