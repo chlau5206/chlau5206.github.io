@@ -35,7 +35,7 @@ from lib.metadata_utils import *
 # =====================================================================
 skip_config = Path("Scripts/supporting/skip_config.yml")
 
-DEFAULT_SKIP_FOLDERS = frozenset({
+DEFAULT_SKIP_FOLDERS = ({
     "Reports",
     "Archive"
 })
