@@ -188,3 +188,4 @@ Bake on bottom rack of the oven for 42-46 minutes
 无盐黄油 Unsalted Butter  21g （软化的黄油温度在19C-23Ｃ，65F-75F
 预热烤箱350F / 180C （提前预热30分钟，烤箱温度比较均匀）
 烤箱中下层烤 34-38分钟
+
